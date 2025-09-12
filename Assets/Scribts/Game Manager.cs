@@ -2,186 +2,125 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
+// GameManager.cs: The central hub for all game state and progression.
 public class GameManager : MonoBehaviour
 {
-    // Singleton instance for easy access from other scripts.
-    public static GameManager Instance;
+    // Singleton pattern to ensure only one instance exists.
+    public static GameManager Instance { get; private set; }
 
-    // Player Stats
-    public int playerLives = 3;
-    private int currentAmmo = 10;
-    private int buckshotAmmo = 0;
-    private int rocketAmmo = 0;
+    [Header("Player Stats")]
+    public int lives = 3;
+    public int score = 0;
     public AmmoType currentAmmoType;
+    public Dictionary<AmmoType, int> ammoCount = new Dictionary<AmmoType, int>();
 
-    // Enemy Stats
+    [Header("Level Progression")]
+    public string[] levelOrder;
+    private int currentLevelIndex = 0;
+    private Vector3 lastSavePointPosition;
+
+    [Header("Enemy Stats")]
+    public EnemyStats[] enemyStats;
+
+    // Define EnemyStats as a nested class here.
     [System.Serializable]
     public class EnemyStats
     {
-        public int health;
-        public int damage;
-        // Add moveSpeed to the EnemyStats class.
+        public float health;
+        public float damage;
         public float moveSpeed;
     }
 
-    public List<EnemyStats> enemyStats;
-    public List<GameObject> enemyPrefabs;
-
-    // Level Management
-    public string[] levelOrder; // Assign scene names in the Inspector.
-    private int currentLevelIndex = 0;
-    private Vector2 lastSavePoint;
-
-    // UI Manager reference.
-    public UI_Manager uiManager;
-
-    private void Awake()
+    void Awake()
     {
-        // Singleton pattern implementation.
+        // Singleton enforcement.
         if (Instance == null)
         {
             Instance = this;
-            DontDestroyOnLoad(gameObject);
+            DontDestroyOnLoad(gameObject); // Ensures the GameManager persists across scenes.
         }
         else
         {
             Destroy(gameObject);
         }
+
+        // Initialize ammo counts.
+        ammoCount.Add(AmmoType.Default, 999);
+        ammoCount.Add(AmmoType.Buckshot, 0);
+        ammoCount.Add(AmmoType.Rocket, 0);
     }
 
-    private void Start()
+    // Handles player death and respawn.
+    public void OnPlayerDeath()
     {
-        // Initialize the last save point to the start of the first level.
-        lastSavePoint = Vector2.zero;
-        currentAmmoType = AmmoType.Default;
-        // Update the UI at the start of the game.
-        uiManager.UpdateLives(playerLives);
-        uiManager.UpdateAllAmmo(currentAmmo, buckshotAmmo, rocketAmmo);
-    }
-
-    // --- Player and Ammo Management ---
-    public void DeductAmmo(AmmoType type)
-    {
-        switch (type)
+        lives--;
+        if (lives <= 0)
         {
-            case AmmoType.Default:
-                currentAmmo--;
-                break;
-            case AmmoType.Buckshot:
-                buckshotAmmo--;
-                break;
-            case AmmoType.Rocket:
-                rocketAmmo--;
-                break;
+            // Load Game Over screen.
+            SceneManager.LoadScene("GameOverMenu");
         }
-        uiManager.UpdateAllAmmo(currentAmmo, buckshotAmmo, rocketAmmo);
-    }
-
-    public int GetAmmoCount(AmmoType type)
-    {
-        switch (type)
+        else
         {
-            case AmmoType.Default:
-                return currentAmmo;
-            case AmmoType.Buckshot:
-                return buckshotAmmo;
-            case AmmoType.Rocket:
-                return rocketAmmo;
-            default:
-                return 0;
+            // Respawn at the last save point.
+            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+            // Player.instance.transform.position = lastSavePointPosition; // Requires Player reference.
         }
     }
 
-    public void HandlePickup(PickupType type, int amount)
+    // Sets the player's last save point.
+    public void SetSavePoint(Vector3 position)
     {
-        switch (type)
-        {
-            case PickupType.DefaultAmmo:
-                currentAmmo += amount;
-                uiManager.UpdateAllAmmo(currentAmmo, buckshotAmmo, rocketAmmo);
-                break;
-            case PickupType.BuckshotAmmo:
-                buckshotAmmo += amount;
-                uiManager.UpdateAllAmmo(currentAmmo, buckshotAmmo, rocketAmmo);
-                break;
-            case PickupType.RocketAmmo:
-                rocketAmmo += amount;
-                uiManager.UpdateAllAmmo(currentAmmo, buckshotAmmo, rocketAmmo);
-                break;
-            case PickupType.Life:
-                playerLives += amount;
-                uiManager.UpdateLives(playerLives);
-                break;
-        }
+        lastSavePointPosition = position;
     }
 
-    // --- Level and Game State Management ---
+    // Loads the next level in the sequence.
     public void LoadNextLevel()
     {
         currentLevelIndex++;
         if (currentLevelIndex < levelOrder.Length)
         {
             SceneManager.LoadScene(levelOrder[currentLevelIndex]);
-            // Reset the save point for the new level
-            lastSavePoint = Vector2.zero;
         }
         else
         {
-            // Game Win Condition
+            // All levels complete, load win screen.
             SceneManager.LoadScene("GameWinMenu");
         }
     }
 
-    public void OnPlayerDeath()
+    // Adds ammo of a specific type.
+    public void AddAmmo(AmmoType type, int amount)
     {
-        playerLives--;
-        uiManager.UpdateLives(playerLives);
-
-        if (playerLives <= 0)
+        if (ammoCount.ContainsKey(type))
         {
-            // Game Over Condition
-            SceneManager.LoadScene("GameOverMenu");
-        }
-        else
-        {
-            // Respawn the player
-            // Find the player object in the scene and move it to the last save point.
-            // This assumes the player object has the tag "Player".
-            GameObject player = GameObject.FindGameObjectWithTag("Player");
-            if (player != null)
-            {
-                player.transform.position = lastSavePoint;
-            }
+            ammoCount[type] += amount;
         }
     }
 
-    public void SetSavePoint(Vector2 position)
+    // Deducts one unit of ammo.
+    public void DeductAmmo(AmmoType type)
     {
-        lastSavePoint = position;
-    }
-
-    // --- Enemy and Boss Management ---
-    public EnemyStats GetEnemyStats(int index)
-    {
-        if (index >= 0 && index < enemyStats.Count)
+        if (ammoCount.ContainsKey(type) && ammoCount[type] > 0)
         {
-            return enemyStats[index];
-        }
-        else
-        {
-            Debug.LogError("Enemy stats index out of range!");
-            return new EnemyStats();
+            ammoCount[type]--;
         }
     }
 
-    public void OnBossDefeated()
+    // Returns the current ammo count for a given type.
+    public int GetAmmoCount(AmmoType type)
     {
-        // This method will be called by the boss AI script upon its defeat.
-        LoadNextLevel();
+        if (ammoCount.ContainsKey(type))
+        {
+            return ammoCount[type];
+        }
+        return 0;
     }
 
-    public void StartGame()
+    // Handles pickup events.
+    public void HandlePickup(PickupType type, int amount)
     {
-        SceneManager.LoadScene(levelOrder[0]);
+        // This is a placeholder and should be implemented with more specific logic.
+        // For now, it's a basic implementation.
+        // This method will be expanded as we implement the UI and pickups.
     }
 }
