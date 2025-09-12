@@ -1,61 +1,72 @@
+using System.Collections;
 using UnityEngine;
 
+// Blunderbuss.cs: Manages the player's weapon and ammunition types.
 public class Blunderbuss : MonoBehaviour
 {
-    // === Public Variables for Inspector Setup ===
+    // Public variables set in the Unity Inspector.
+    public GameObject singleShotPrefab;
+    public GameObject buckshotPrefab;
+    public GameObject rocketPrefab;
     public Transform firePoint;
-    public GameObject standardProjectilePrefab;
-    public GameObject buckshotProjectilePrefab;
-    public GameObject explodingProjectilePrefab;
     public float fireRate = 0.5f;
 
-    // === Private Variables ===
-    private float nextFireTime = 0f;
+    // References to other components.
+    private Coroutine fireCoroutine;
 
-    private void Update()
+    // Handles the shooting input.
+    public void StartShooting()
     {
-        if (Input.GetButtonDown("Fire1") && Time.time >= nextFireTime)
+        if (fireCoroutine == null)
         {
-            Shoot();
+            fireCoroutine = StartCoroutine(FireRoutine());
         }
     }
 
-    private void Shoot()
+    public void StopShooting()
     {
-        // Check which ammo type to fire based on player input or a selected state.
-        AmmunitionType ammoType = AmmunitionType.Standard;
-        if (GameManager.Instance.HasAmmo(ammoType))
+        if (fireCoroutine != null)
         {
-            // Instantiate the correct projectile prefab and deduct ammo.
-            GameObject projectilePrefab = GetProjectilePrefab(ammoType);
-            Instantiate(projectilePrefab, firePoint.position, firePoint.rotation);
-            GameManager.Instance.DeductAmmo(ammoType, 1);
-
-            // Set the next fire time.
-            nextFireTime = Time.time + fireRate;
+            StopCoroutine(fireCoroutine);
+            fireCoroutine = null;
         }
     }
 
-    private GameObject GetProjectilePrefab(AmmunitionType type)
+    // The coroutine that handles the firing logic.
+    private IEnumerator FireRoutine()
     {
-        // Return the correct prefab based on the ammo type.
-        switch (type)
+        while (true)
         {
-            case AmmunitionType.Standard:
-                return standardProjectilePrefab;
-            case AmmunitionType.Buckshot:
-                return buckshotProjectilePrefab;
-            case AmmunitionType.Exploding:
-                return explodingProjectilePrefab;
-            default:
-                return standardProjectilePrefab;
+            Fire();
+            yield return new WaitForSeconds(fireRate);
         }
     }
-}
 
-public enum AmmunitionType
-{
-    Standard,
-    Buckshot,
-    Exploding
+    // Handles the actual firing of a projectile.
+    private void Fire()
+    {
+        // Get the current ammo type from the GameManager.
+        AmmoType currentAmmoType = GameManager.Instance.currentAmmoType;
+
+        // Check if the player has ammo for the selected type.
+        if (GameManager.Instance.GetAmmoCount(currentAmmoType) > 0)
+        {
+            // Instantiate the correct projectile prefab.
+            switch (currentAmmoType)
+            {
+                case AmmoType.Buckshot:
+                    // Code for firing buckshot.
+                    break;
+                case AmmoType.Rocket:
+                    // Code for firing a rocket.
+                    break;
+                case AmmoType.Default:
+                    Instantiate(singleShotPrefab, firePoint.position, firePoint.rotation);
+                    break;
+            }
+
+            // Deduct the ammo after firing.
+            GameManager.Instance.DeductAmmo(currentAmmoType);
+        }
+    }
 }

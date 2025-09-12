@@ -2,38 +2,42 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-/// <summary>
-/// A Serializable class to hold enemy data that can be set in the Unity Inspector.
-/// </summary>
-[System.Serializable]
-public class EnemyStats
-{
-    public string enemyTypeName;
-    public float health;
-    public float damage;
-}
-
 public class GameManager : MonoBehaviour
 {
-    // === Singleton Instance ===
-    public static GameManager Instance { get; private set; }
+    // Singleton instance for easy access from other scripts.
+    public static GameManager Instance;
 
-    // === Public Variables for Inspector Setup ===
-    public string[] levelScenes;
-    public List<EnemyStats> enemyStats;
+    // Player Stats
     public int playerLives = 3;
-    public int standardAmmo = 50;
-    public int explodingAmmo = 5;
-    public int buckshotAmmo = 10;
+    private int currentAmmo = 10;
+    private int buckshotAmmo = 0;
+    private int rocketAmmo = 0;
+    public AmmoType currentAmmoType;
 
-    // === Private Variables ===
+    // Enemy Stats
+    [System.Serializable]
+    public class EnemyStats
+    {
+        public int health;
+        public int damage;
+        // Add moveSpeed to the EnemyStats class.
+        public float moveSpeed;
+    }
+
+    public List<EnemyStats> enemyStats;
+    public List<GameObject> enemyPrefabs;
+
+    // Level Management
+    public string[] levelOrder; // Assign scene names in the Inspector.
     private int currentLevelIndex = 0;
-    private Vector3 currentSavePoint;
-    private float gameTime = 0f;
-    private Dictionary<string, EnemyStats> enemyStatDictionary = new Dictionary<string, EnemyStats>();
+    private Vector2 lastSavePoint;
+
+    // UI Manager reference.
+    public UI_Manager uiManager;
 
     private void Awake()
     {
+        // Singleton pattern implementation.
         if (Instance == null)
         {
             Instance = this;
@@ -43,145 +47,141 @@ public class GameManager : MonoBehaviour
         {
             Destroy(gameObject);
         }
-
-        foreach (var stats in enemyStats)
-        {
-            enemyStatDictionary[stats.enemyTypeName] = stats;
-        }
     }
 
-    private void Update()
+    private void Start()
     {
-        gameTime += Time.deltaTime;
-        if (UI_Manager.Instance != null)
-        {
-            UI_Manager.Instance.UpdateTimer(gameTime);
-        }
+        // Initialize the last save point to the start of the first level.
+        lastSavePoint = Vector2.zero;
+        currentAmmoType = AmmoType.Default;
+        // Update the UI at the start of the game.
+        uiManager.UpdateLives(playerLives);
+        uiManager.UpdateAllAmmo(currentAmmo, buckshotAmmo, rocketAmmo);
     }
 
-    public void StartGame()
+    // --- Player and Ammo Management ---
+    public void DeductAmmo(AmmoType type)
     {
-        currentLevelIndex = 0;
-        SceneManager.LoadScene(levelScenes[currentLevelIndex]);
+        switch (type)
+        {
+            case AmmoType.Default:
+                currentAmmo--;
+                break;
+            case AmmoType.Buckshot:
+                buckshotAmmo--;
+                break;
+            case AmmoType.Rocket:
+                rocketAmmo--;
+                break;
+        }
+        uiManager.UpdateAllAmmo(currentAmmo, buckshotAmmo, rocketAmmo);
     }
 
-    public void LoadNextLevel()
+    public int GetAmmoCount(AmmoType type)
     {
-        currentLevelIndex++;
-        if (currentLevelIndex < levelScenes.Length)
+        switch (type)
         {
-            SceneManager.LoadScene(levelScenes[currentLevelIndex]);
+            case AmmoType.Default:
+                return currentAmmo;
+            case AmmoType.Buckshot:
+                return buckshotAmmo;
+            case AmmoType.Rocket:
+                return rocketAmmo;
+            default:
+                return 0;
         }
-        else
-        {
-            SceneManager.LoadScene("GameWinScene");
-        }
-    }
-
-    public void RestartLevel()
-    {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
-    }
-
-    public void OnPlayerDeath()
-    {
-        playerLives--;
-        if (UI_Manager.Instance != null)
-        {
-            UI_Manager.Instance.UpdateLives(playerLives);
-        }
-        if (playerLives > 0)
-        {
-            if (currentSavePoint != Vector3.zero)
-            {
-                // Respawn player here
-            }
-            else
-            {
-                RestartLevel();
-            }
-        }
-        else
-        {
-            SceneManager.LoadScene("GameOverScene");
-        }
-    }
-
-    public void SetSavePoint(Vector3 position)
-    {
-        currentSavePoint = position;
-    }
-
-    public EnemyStats GetEnemyStats(string enemyType)
-    {
-        if (enemyStatDictionary.ContainsKey(enemyType))
-        {
-            return enemyStatDictionary[enemyType];
-        }
-        return null;
     }
 
     public void HandlePickup(PickupType type, int amount)
     {
         switch (type)
         {
-            case PickupType.StandardAmmo:
-                standardAmmo += amount;
-                break;
-            case PickupType.ExplodingAmmo:
-                explodingAmmo += amount;
+            case PickupType.DefaultAmmo:
+                currentAmmo += amount;
+                uiManager.UpdateAllAmmo(currentAmmo, buckshotAmmo, rocketAmmo);
                 break;
             case PickupType.BuckshotAmmo:
                 buckshotAmmo += amount;
+                uiManager.UpdateAllAmmo(currentAmmo, buckshotAmmo, rocketAmmo);
+                break;
+            case PickupType.RocketAmmo:
+                rocketAmmo += amount;
+                uiManager.UpdateAllAmmo(currentAmmo, buckshotAmmo, rocketAmmo);
                 break;
             case PickupType.Life:
                 playerLives += amount;
-                if (UI_Manager.Instance != null)
-                {
-                    UI_Manager.Instance.UpdateLives(playerLives);
-                }
+                uiManager.UpdateLives(playerLives);
                 break;
-        }
-
-        if (UI_Manager.Instance != null)
-        {
-            UI_Manager.Instance.UpdateAllAmmo(standardAmmo, explodingAmmo, buckshotAmmo);
         }
     }
 
-    public bool HasAmmo(AmmunitionType type)
+    // --- Level and Game State Management ---
+    public void LoadNextLevel()
     {
-        switch (type)
+        currentLevelIndex++;
+        if (currentLevelIndex < levelOrder.Length)
         {
-            case AmmunitionType.Standard:
-                return standardAmmo > 0;
-            case AmmunitionType.Exploding:
-                return explodingAmmo > 0;
-            case AmmunitionType.Buckshot:
-                return buckshotAmmo > 0;
-            default:
-                return false;
+            SceneManager.LoadScene(levelOrder[currentLevelIndex]);
+            // Reset the save point for the new level
+            lastSavePoint = Vector2.zero;
+        }
+        else
+        {
+            // Game Win Condition
+            SceneManager.LoadScene("GameWinMenu");
         }
     }
 
-    public void DeductAmmo(AmmunitionType type, int amount)
+    public void OnPlayerDeath()
     {
-        switch (type)
-        {
-            case AmmunitionType.Standard:
-                standardAmmo = Mathf.Max(0, standardAmmo - amount);
-                break;
-            case AmmunitionType.Exploding:
-                explodingAmmo = Mathf.Max(0, explodingAmmo - amount);
-                break;
-            case AmmunitionType.Buckshot:
-                buckshotAmmo = Mathf.Max(0, buckshotAmmo - amount);
-                break;
-        }
+        playerLives--;
+        uiManager.UpdateLives(playerLives);
 
-        if (UI_Manager.Instance != null)
+        if (playerLives <= 0)
         {
-            UI_Manager.Instance.UpdateAllAmmo(standardAmmo, explodingAmmo, buckshotAmmo);
+            // Game Over Condition
+            SceneManager.LoadScene("GameOverMenu");
         }
+        else
+        {
+            // Respawn the player
+            // Find the player object in the scene and move it to the last save point.
+            // This assumes the player object has the tag "Player".
+            GameObject player = GameObject.FindGameObjectWithTag("Player");
+            if (player != null)
+            {
+                player.transform.position = lastSavePoint;
+            }
+        }
+    }
+
+    public void SetSavePoint(Vector2 position)
+    {
+        lastSavePoint = position;
+    }
+
+    // --- Enemy and Boss Management ---
+    public EnemyStats GetEnemyStats(int index)
+    {
+        if (index >= 0 && index < enemyStats.Count)
+        {
+            return enemyStats[index];
+        }
+        else
+        {
+            Debug.LogError("Enemy stats index out of range!");
+            return new EnemyStats();
+        }
+    }
+
+    public void OnBossDefeated()
+    {
+        // This method will be called by the boss AI script upon its defeat.
+        LoadNextLevel();
+    }
+
+    public void StartGame()
+    {
+        SceneManager.LoadScene(levelOrder[0]);
     }
 }

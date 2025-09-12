@@ -1,47 +1,46 @@
 using UnityEngine;
 
+// PlayerController.cs: Manages all player input and movement.
 public class PlayerController : MonoBehaviour
 {
-    // === Public Variables for Inspector Setup ===
+    // Public variables set in the Unity Inspector.
     public float moveSpeed = 5f;
     public float jumpForce = 10f;
     public Transform groundCheck;
     public LayerMask groundLayer;
-    public int maxHealth = 100;
 
-    // === Private Variables ===
+    // References to other components.
     private Rigidbody2D rb;
-    private bool isGrounded;
-    private int currentHealth;
+    private Animator animator;
 
-    private void Start()
+    // Tracks if the player is on the ground.
+    private bool isGrounded;
+
+    void Start()
     {
         rb = GetComponent<Rigidbody2D>();
-        currentHealth = maxHealth;
+        animator = GetComponent<Animator>();
     }
 
-    private void Update()
+    void Update()
     {
         // Check if the player is on the ground.
         isGrounded = Physics2D.OverlapCircle(groundCheck.position, 0.2f, groundLayer);
 
         // Handle horizontal movement.
-        float moveInput = Input.GetAxis("Horizontal");
-        rb.velocity = new Vector2(moveInput * moveSpeed, rb.velocity.y);
+        float horizontalInput = Input.GetAxis("Horizontal");
+        rb.linearVelocity = new Vector2(horizontalInput * moveSpeed, rb.linearVelocity.y);
 
         // Handle jumping.
-        if (isGrounded && Input.GetButtonDown("Jump"))
+        if (Input.GetButtonDown("Jump") && isGrounded)
         {
-            rb.velocity = new Vector2(rb.velocity.x, jumpForce);
+            rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce);
         }
     }
 
+    // Handles taking damage from enemies or hazards.
     public void TakeDamage(int damage)
     {
-        currentHealth -= damage;
-        if (currentHealth <= 0)
-        {
-            GameManager.Instance.OnPlayerDeath();
-        }
+        GameManager.Instance.OnPlayerDeath();
     }
 }
