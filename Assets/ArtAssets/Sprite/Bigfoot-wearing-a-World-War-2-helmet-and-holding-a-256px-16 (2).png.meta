@@ -1,0 +1,819 @@
+fileFormatVersion: 2
+guid: 47385fa8933bfe040961b8b69d68fce5
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -9073927237656167486
+    second: Bigfoot-wearing-a-World-War-2-helmet-and-holding-a-256px-16 (2)_0
+  - first:
+      213: -1724398193157765858
+    second: Bigfoot-wearing-a-World-War-2-helmet-and-holding-a-256px-16 (2)_1
+  - first:
+      213: 1170416091063998799
+    second: Bigfoot-wearing-a-World-War-2-helmet-and-holding-a-256px-16 (2)_2
+  - first:
+      213: -2238779541738042248
+    second: Bigfoot-wearing-a-World-War-2-helmet-and-holding-a-256px-16 (2)_3
+  - first:
+      213: -6840931795681661220
+    second: Bigfoot-wearing-a-World-War-2-helmet-and-holding-a-256px-16 (2)_4
+  - first:
+      213: -4139822143103520553
+    second: Bigfoot-wearing-a-World-War-2-helmet-and-holding-a-256px-16 (2)_5
+  - first:
+      213: 8668481630058555034
+    second: Bigfoot-wearing-a-World-War-2-helmet-and-holding-a-256px-16 (2)_6
+  - first:
+      213: -7568804639323716765
+    second: Bigfoot-wearing-a-World-War-2-helmet-and-holding-a-256px-16 (2)_7
+  - first:
+      213: -7577362196071515493
+    second: Bigfoot-wearing-a-World-War-2-helmet-and-holding-a-256px-16 (2)_8
+  - first:
+      213: -5512012659747980513
+    second: Bigfoot-wearing-a-World-War-2-helmet-and-holding-a-256px-16 (2)_9
+  - first:
+      213: -1855736753927512530
+    second: Bigfoot-wearing-a-World-War-2-helmet-and-holding-a-256px-16 (2)_10
+  - first:
+      213: -1921137523361758074
+    second: Bigfoot-wearing-a-World-War-2-helmet-and-holding-a-256px-16 (2)_11
+  - first:
+      213: -4384911156865613303
+    second: Bigfoot-wearing-a-World-War-2-helmet-and-holding-a-256px-16 (2)_12
+  - first:
+      213: 4685383065135768235
+    second: Bigfoot-wearing-a-World-War-2-helmet-and-holding-a-256px-16 (2)_13
+  - first:
+      213: 1249590388871318099
+    second: Bigfoot-wearing-a-World-War-2-helmet-and-holding-a-256px-16 (2)_14
+  - first:
+      213: -3286682107560559741
+    second: Bigfoot-wearing-a-World-War-2-helmet-and-holding-a-256px-16 (2)_15
+  - first:
+      213: -4034471126771206686
+    second: Bigfoot-wearing-a-World-War-2-helmet-and-holding-a-256px-16 (2)_16
+  - first:
+      213: 1419255929965408648
+    second: Bigfoot-wearing-a-World-War-2-helmet-and-holding-a-256px-16 (2)_17
+  - first:
+      213: 8031528813865080593
+    second: Bigfoot-wearing-a-World-War-2-helmet-and-holding-a-256px-16 (2)_18
+  - first:
+      213: 8825160042781465133
+    second: Bigfoot-wearing-a-World-War-2-helmet-and-holding-a-256px-16 (2)_19
+  - first:
+      213: -3128031451999532368
+    second: Bigfoot-wearing-a-World-War-2-helmet-and-holding-a-256px-16 (2)_20
+  - first:
+      213: 1866860805507954160
+    second: Bigfoot-wearing-a-World-War-2-helmet-and-holding-a-256px-16 (2)_21
+  - first:
+      213: 4373384304169124873
+    second: Bigfoot-wearing-a-World-War-2-helmet-and-holding-a-256px-16 (2)_22
+  - first:
+      213: 3556635371173156106
+    second: Bigfoot-wearing-a-World-War-2-helmet-and-holding-a-256px-16 (2)_23
+  - first:
+      213: -4659100965382351641
+    second: Bigfoot-wearing-a-World-War-2-helmet-and-holding-a-256px-16 (2)_24
+  - first:
+      213: 8629305209914893695
+    second: Bigfoot-wearing-a-World-War-2-helmet-and-holding-a-256px-16 (2)_25
+  - first:
+      213: 664156718738759310
+    second: Bigfoot-wearing-a-World-War-2-helmet-and-holding-a-256px-16 (2)_26
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Bigfoot-wearing-a-World-War-2-helmet-and-holding-a-256px-16 (2)_0
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 2036
+        width: 190
+        height: 261
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2cb33c9c04fe21280800000000000000
+      internalID: -9073927237656167486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bigfoot-wearing-a-World-War-2-helmet-and-holding-a-256px-16 (2)_1
+      rect:
+        serializedVersion: 2
+        x: 763
+        y: 2036
+        width: 263
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e158185caf4b118e0800000000000000
+      internalID: -1724398193157765858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bigfoot-wearing-a-World-War-2-helmet-and-holding-a-256px-16 (2)_2
+      rect:
+        serializedVersion: 2
+        x: 1377
+        y: 2036
+        width: 299
+        height: 245
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f495543db372e3010800000000000000
+      internalID: 1170416091063998799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bigfoot-wearing-a-World-War-2-helmet-and-holding-a-256px-16 (2)_3
+      rect:
+        serializedVersion: 2
+        x: 1979
+        y: 2032
+        width: 322
+        height: 234
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87cca4c4ed14ee0e0800000000000000
+      internalID: -2238779541738042248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bigfoot-wearing-a-World-War-2-helmet-and-holding-a-256px-16 (2)_4
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 1413
+        width: 324
+        height: 224
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cde28b1d6c02011a0800000000000000
+      internalID: -6840931795681661220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bigfoot-wearing-a-World-War-2-helmet-and-holding-a-256px-16 (2)_5
+      rect:
+        serializedVersion: 2
+        x: 741
+        y: 1416
+        width: 85
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d0b40fc1b56c86c0800000000000000
+      internalID: -4139822143103520553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bigfoot-wearing-a-World-War-2-helmet-and-holding-a-256px-16 (2)_6
+      rect:
+        serializedVersion: 2
+        x: 859
+        y: 1412
+        width: 292
+        height: 290
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a96a3ad6d12ac4870800000000000000
+      internalID: 8668481630058555034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bigfoot-wearing-a-World-War-2-helmet-and-holding-a-256px-16 (2)_7
+      rect:
+        serializedVersion: 2
+        x: 1360
+        y: 1416
+        width: 85
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36308c2284436f690800000000000000
+      internalID: -7568804639323716765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bigfoot-wearing-a-World-War-2-helmet-and-holding-a-256px-16 (2)_8
+      rect:
+        serializedVersion: 2
+        x: 1510
+        y: 1410
+        width: 324
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9afea0ba3dc7d690800000000000000
+      internalID: -7577362196071515493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bigfoot-wearing-a-World-War-2-helmet-and-holding-a-256px-16 (2)_9
+      rect:
+        serializedVersion: 2
+        x: 1979
+        y: 1416
+        width: 85
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1bf34a90b56183b0800000000000000
+      internalID: -5512012659747980513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bigfoot-wearing-a-World-War-2-helmet-and-holding-a-256px-16 (2)_10
+      rect:
+        serializedVersion: 2
+        x: 2196
+        y: 1411
+        width: 276
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2e938121491f36e0800000000000000
+      internalID: -1855736753927512530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bigfoot-wearing-a-World-War-2-helmet-and-holding-a-256px-16 (2)_11
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 797
+        width: 85
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6844953e99fb655e0800000000000000
+      internalID: -1921137523361758074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bigfoot-wearing-a-World-War-2-helmet-and-holding-a-256px-16 (2)_12
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 785
+        width: 272
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 902c06bf88aa523c0800000000000000
+      internalID: -4384911156865613303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bigfoot-wearing-a-World-War-2-helmet-and-holding-a-256px-16 (2)_13
+      rect:
+        serializedVersion: 2
+        x: 741
+        y: 797
+        width: 85
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba26c02d213d50140800000000000000
+      internalID: 4685383065135768235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bigfoot-wearing-a-World-War-2-helmet-and-holding-a-256px-16 (2)_14
+      rect:
+        serializedVersion: 2
+        x: 962
+        y: 786
+        width: 273
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35aca6b86df675110800000000000000
+      internalID: 1249590388871318099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bigfoot-wearing-a-World-War-2-helmet-and-holding-a-256px-16 (2)_15
+      rect:
+        serializedVersion: 2
+        x: 1360
+        y: 797
+        width: 85
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38b7839690c5362d0800000000000000
+      internalID: -3286682107560559741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bigfoot-wearing-a-World-War-2-helmet-and-holding-a-256px-16 (2)_16
+      rect:
+        serializedVersion: 2
+        x: 1580
+        y: 785
+        width: 272
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e57b30c2eda208c0800000000000000
+      internalID: -4034471126771206686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bigfoot-wearing-a-World-War-2-helmet-and-holding-a-256px-16 (2)_17
+      rect:
+        serializedVersion: 2
+        x: 1979
+        y: 797
+        width: 85
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88174feafb532b310800000000000000
+      internalID: 1419255929965408648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bigfoot-wearing-a-World-War-2-helmet-and-holding-a-256px-16 (2)_18
+      rect:
+        serializedVersion: 2
+        x: 2154
+        y: 793
+        width: 305
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1171eb147e8b57f60800000000000000
+      internalID: 8031528813865080593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bigfoot-wearing-a-World-War-2-helmet-and-holding-a-256px-16 (2)_19
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 178
+        width: 85
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2ad5fb1d44497a70800000000000000
+      internalID: 8825160042781465133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bigfoot-wearing-a-World-War-2-helmet-and-holding-a-256px-16 (2)_20
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 177
+        width: 234
+        height: 258
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ba8159a7fff694d0800000000000000
+      internalID: -3128031451999532368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bigfoot-wearing-a-World-War-2-helmet-and-holding-a-256px-16 (2)_21
+      rect:
+        serializedVersion: 2
+        x: 741
+        y: 178
+        width: 85
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f5b665f20c68e910800000000000000
+      internalID: 1866860805507954160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bigfoot-wearing-a-World-War-2-helmet-and-holding-a-256px-16 (2)_22
+      rect:
+        serializedVersion: 2
+        x: 882
+        y: 174
+        width: 186
+        height: 224
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 904054c7ad161bc30800000000000000
+      internalID: 4373384304169124873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bigfoot-wearing-a-World-War-2-helmet-and-holding-a-256px-16 (2)_23
+      rect:
+        serializedVersion: 2
+        x: 1360
+        y: 178
+        width: 85
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a059d56b605bb5130800000000000000
+      internalID: 3556635371173156106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bigfoot-wearing-a-World-War-2-helmet-and-holding-a-256px-16 (2)_24
+      rect:
+        serializedVersion: 2
+        x: 1518
+        y: 175
+        width: 196
+        height: 238
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e494b16b5c875fb0800000000000000
+      internalID: -4659100965382351641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bigfoot-wearing-a-World-War-2-helmet-and-holding-a-256px-16 (2)_25
+      rect:
+        serializedVersion: 2
+        x: 1979
+        y: 178
+        width: 85
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f75a76f4e5371c770800000000000000
+      internalID: 8629305209914893695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bigfoot-wearing-a-World-War-2-helmet-and-holding-a-256px-16 (2)_26
+      rect:
+        serializedVersion: 2
+        x: 2150
+        y: 175
+        width: 162
+        height: 263
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8edc9f440f873900800000000000000
+      internalID: 664156718738759310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Bigfoot-wearing-a-World-War-2-helmet-and-holding-a-256px-16 (2)_0: -9073927237656167486
+      Bigfoot-wearing-a-World-War-2-helmet-and-holding-a-256px-16 (2)_1: -1724398193157765858
+      Bigfoot-wearing-a-World-War-2-helmet-and-holding-a-256px-16 (2)_10: -1855736753927512530
+      Bigfoot-wearing-a-World-War-2-helmet-and-holding-a-256px-16 (2)_11: -1921137523361758074
+      Bigfoot-wearing-a-World-War-2-helmet-and-holding-a-256px-16 (2)_12: -4384911156865613303
+      Bigfoot-wearing-a-World-War-2-helmet-and-holding-a-256px-16 (2)_13: 4685383065135768235
+      Bigfoot-wearing-a-World-War-2-helmet-and-holding-a-256px-16 (2)_14: 1249590388871318099
+      Bigfoot-wearing-a-World-War-2-helmet-and-holding-a-256px-16 (2)_15: -3286682107560559741
+      Bigfoot-wearing-a-World-War-2-helmet-and-holding-a-256px-16 (2)_16: -4034471126771206686
+      Bigfoot-wearing-a-World-War-2-helmet-and-holding-a-256px-16 (2)_17: 1419255929965408648
+      Bigfoot-wearing-a-World-War-2-helmet-and-holding-a-256px-16 (2)_18: 8031528813865080593
+      Bigfoot-wearing-a-World-War-2-helmet-and-holding-a-256px-16 (2)_19: 8825160042781465133
+      Bigfoot-wearing-a-World-War-2-helmet-and-holding-a-256px-16 (2)_2: 1170416091063998799
+      Bigfoot-wearing-a-World-War-2-helmet-and-holding-a-256px-16 (2)_20: -3128031451999532368
+      Bigfoot-wearing-a-World-War-2-helmet-and-holding-a-256px-16 (2)_21: 1866860805507954160
+      Bigfoot-wearing-a-World-War-2-helmet-and-holding-a-256px-16 (2)_22: 4373384304169124873
+      Bigfoot-wearing-a-World-War-2-helmet-and-holding-a-256px-16 (2)_23: 3556635371173156106
+      Bigfoot-wearing-a-World-War-2-helmet-and-holding-a-256px-16 (2)_24: -4659100965382351641
+      Bigfoot-wearing-a-World-War-2-helmet-and-holding-a-256px-16 (2)_25: 8629305209914893695
+      Bigfoot-wearing-a-World-War-2-helmet-and-holding-a-256px-16 (2)_26: 664156718738759310
+      Bigfoot-wearing-a-World-War-2-helmet-and-holding-a-256px-16 (2)_3: -2238779541738042248
+      Bigfoot-wearing-a-World-War-2-helmet-and-holding-a-256px-16 (2)_4: -6840931795681661220
+      Bigfoot-wearing-a-World-War-2-helmet-and-holding-a-256px-16 (2)_5: -4139822143103520553
+      Bigfoot-wearing-a-World-War-2-helmet-and-holding-a-256px-16 (2)_6: 8668481630058555034
+      Bigfoot-wearing-a-World-War-2-helmet-and-holding-a-256px-16 (2)_7: -7568804639323716765
+      Bigfoot-wearing-a-World-War-2-helmet-and-holding-a-256px-16 (2)_8: -7577362196071515493
+      Bigfoot-wearing-a-World-War-2-helmet-and-holding-a-256px-16 (2)_9: -5512012659747980513
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,533 @@
+fileFormatVersion: 2
+guid: 902959989e024d34da9775a896bcd20c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7954547175171658837
+    second: A-Bigfoot-sprite-in-a-16-bit-pixel-art-style-viewe-256px-16 (1)_0
+  - first:
+      213: -4648795218223796028
+    second: A-Bigfoot-sprite-in-a-16-bit-pixel-art-style-viewe-256px-16 (1)_1
+  - first:
+      213: -4628417146499910719
+    second: A-Bigfoot-sprite-in-a-16-bit-pixel-art-style-viewe-256px-16 (1)_2
+  - first:
+      213: 6150364609518277873
+    second: A-Bigfoot-sprite-in-a-16-bit-pixel-art-style-viewe-256px-16 (1)_3
+  - first:
+      213: 5732122751072668979
+    second: A-Bigfoot-sprite-in-a-16-bit-pixel-art-style-viewe-256px-16 (1)_4
+  - first:
+      213: 1697533995476409998
+    second: A-Bigfoot-sprite-in-a-16-bit-pixel-art-style-viewe-256px-16 (1)_5
+  - first:
+      213: -571685988444103583
+    second: A-Bigfoot-sprite-in-a-16-bit-pixel-art-style-viewe-256px-16 (1)_6
+  - first:
+      213: 8660344229957060902
+    second: A-Bigfoot-sprite-in-a-16-bit-pixel-art-style-viewe-256px-16 (1)_7
+  - first:
+      213: -2267756680405093409
+    second: A-Bigfoot-sprite-in-a-16-bit-pixel-art-style-viewe-256px-16 (1)_8
+  - first:
+      213: -8218473881414168751
+    second: A-Bigfoot-sprite-in-a-16-bit-pixel-art-style-viewe-256px-16 (1)_9
+  - first:
+      213: -7033672706416649238
+    second: A-Bigfoot-sprite-in-a-16-bit-pixel-art-style-viewe-256px-16 (1)_10
+  - first:
+      213: -5198635275129357761
+    second: A-Bigfoot-sprite-in-a-16-bit-pixel-art-style-viewe-256px-16 (1)_11
+  - first:
+      213: 7066625648500889806
+    second: A-Bigfoot-sprite-in-a-16-bit-pixel-art-style-viewe-256px-16 (1)_12
+  - first:
+      213: -8469931974507875747
+    second: A-Bigfoot-sprite-in-a-16-bit-pixel-art-style-viewe-256px-16 (1)_13
+  - first:
+      213: 2898177650380889156
+    second: A-Bigfoot-sprite-in-a-16-bit-pixel-art-style-viewe-256px-16 (1)_14
+  - first:
+      213: 1850217670996727481
+    second: A-Bigfoot-sprite-in-a-16-bit-pixel-art-style-viewe-256px-16 (1)_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: A-Bigfoot-sprite-in-a-16-bit-pixel-art-style-viewe-256px-16 (1)_0
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 2918
+        width: 304
+        height: 245
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5549135c28a346e60800000000000000
+      internalID: 7954547175171658837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A-Bigfoot-sprite-in-a-16-bit-pixel-art-style-viewe-256px-16 (1)_1
+      rect:
+        serializedVersion: 2
+        x: 1092
+        y: 2918
+        width: 304
+        height: 245
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c07c3021692c7fb0800000000000000
+      internalID: -4648795218223796028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A-Bigfoot-sprite-in-a-16-bit-pixel-art-style-viewe-256px-16 (1)_2
+      rect:
+        serializedVersion: 2
+        x: 1963
+        y: 2918
+        width: 304
+        height: 245
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c3bb8ea02f84cfb0800000000000000
+      internalID: -4628417146499910719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A-Bigfoot-sprite-in-a-16-bit-pixel-art-style-viewe-256px-16 (1)_3
+      rect:
+        serializedVersion: 2
+        x: 2834
+        y: 2918
+        width: 304
+        height: 245
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f4987db60c7a5550800000000000000
+      internalID: 6150364609518277873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A-Bigfoot-sprite-in-a-16-bit-pixel-art-style-viewe-256px-16 (1)_4
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 2047
+        width: 304
+        height: 245
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33d0f92a5479c8f40800000000000000
+      internalID: 5732122751072668979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A-Bigfoot-sprite-in-a-16-bit-pixel-art-style-viewe-256px-16 (1)_5
+      rect:
+        serializedVersion: 2
+        x: 1046
+        y: 2047
+        width: 350
+        height: 245
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8e558acc2ade8710800000000000000
+      internalID: 1697533995476409998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A-Bigfoot-sprite-in-a-16-bit-pixel-art-style-viewe-256px-16 (1)_6
+      rect:
+        serializedVersion: 2
+        x: 1874
+        y: 2047
+        width: 393
+        height: 245
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16c98b75f96f018f0800000000000000
+      internalID: -571685988444103583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A-Bigfoot-sprite-in-a-16-bit-pixel-art-style-viewe-256px-16 (1)_7
+      rect:
+        serializedVersion: 2
+        x: 2834
+        y: 2047
+        width: 304
+        height: 245
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 629c1335139bf2870800000000000000
+      internalID: 8660344229957060902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A-Bigfoot-sprite-in-a-16-bit-pixel-art-style-viewe-256px-16 (1)_8
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 1176
+        width: 426
+        height: 245
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd37f63705f4780e0800000000000000
+      internalID: -2267756680405093409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A-Bigfoot-sprite-in-a-16-bit-pixel-art-style-viewe-256px-16 (1)_9
+      rect:
+        serializedVersion: 2
+        x: 1097
+        y: 1176
+        width: 299
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15f8b765c8d12fd80800000000000000
+      internalID: -8218473881414168751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A-Bigfoot-sprite-in-a-16-bit-pixel-art-style-viewe-256px-16 (1)_10
+      rect:
+        serializedVersion: 2
+        x: 1964
+        y: 1176
+        width: 303
+        height: 245
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aebdca380ff536e90800000000000000
+      internalID: -7033672706416649238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A-Bigfoot-sprite-in-a-16-bit-pixel-art-style-viewe-256px-16 (1)_11
+      rect:
+        serializedVersion: 2
+        x: 2834
+        y: 1176
+        width: 304
+        height: 245
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3a7915c2ccbad7b0800000000000000
+      internalID: -5198635275129357761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A-Bigfoot-sprite-in-a-16-bit-pixel-art-style-viewe-256px-16 (1)_12
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 305
+        width: 301
+        height: 245
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec85f833692b11260800000000000000
+      internalID: 7066625648500889806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A-Bigfoot-sprite-in-a-16-bit-pixel-art-style-viewe-256px-16 (1)_13
+      rect:
+        serializedVersion: 2
+        x: 1094
+        y: 305
+        width: 302
+        height: 245
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d523cbbaeb1c47a80800000000000000
+      internalID: -8469931974507875747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A-Bigfoot-sprite-in-a-16-bit-pixel-art-style-viewe-256px-16 (1)_14
+      rect:
+        serializedVersion: 2
+        x: 1965
+        y: 305
+        width: 302
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44cdde2c735683820800000000000000
+      internalID: 2898177650380889156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A-Bigfoot-sprite-in-a-16-bit-pixel-art-style-viewe-256px-16 (1)_15
+      rect:
+        serializedVersion: 2
+        x: 2836
+        y: 305
+        width: 302
+        height: 245
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b619ec3b2b4da910800000000000000
+      internalID: 1850217670996727481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      A-Bigfoot-sprite-in-a-16-bit-pixel-art-style-viewe-256px-16 (1)_0: 7954547175171658837
+      A-Bigfoot-sprite-in-a-16-bit-pixel-art-style-viewe-256px-16 (1)_1: -4648795218223796028
+      A-Bigfoot-sprite-in-a-16-bit-pixel-art-style-viewe-256px-16 (1)_10: -7033672706416649238
+      A-Bigfoot-sprite-in-a-16-bit-pixel-art-style-viewe-256px-16 (1)_11: -5198635275129357761
+      A-Bigfoot-sprite-in-a-16-bit-pixel-art-style-viewe-256px-16 (1)_12: 7066625648500889806
+      A-Bigfoot-sprite-in-a-16-bit-pixel-art-style-viewe-256px-16 (1)_13: -8469931974507875747
+      A-Bigfoot-sprite-in-a-16-bit-pixel-art-style-viewe-256px-16 (1)_14: 2898177650380889156
+      A-Bigfoot-sprite-in-a-16-bit-pixel-art-style-viewe-256px-16 (1)_15: 1850217670996727481
+      A-Bigfoot-sprite-in-a-16-bit-pixel-art-style-viewe-256px-16 (1)_2: -4628417146499910719
+      A-Bigfoot-sprite-in-a-16-bit-pixel-art-style-viewe-256px-16 (1)_3: 6150364609518277873
+      A-Bigfoot-sprite-in-a-16-bit-pixel-art-style-viewe-256px-16 (1)_4: 5732122751072668979
+      A-Bigfoot-sprite-in-a-16-bit-pixel-art-style-viewe-256px-16 (1)_5: 1697533995476409998
+      A-Bigfoot-sprite-in-a-16-bit-pixel-art-style-viewe-256px-16 (1)_6: -571685988444103583
+      A-Bigfoot-sprite-in-a-16-bit-pixel-art-style-viewe-256px-16 (1)_7: 8660344229957060902
+      A-Bigfoot-sprite-in-a-16-bit-pixel-art-style-viewe-256px-16 (1)_8: -2267756680405093409
+      A-Bigfoot-sprite-in-a-16-bit-pixel-art-style-viewe-256px-16 (1)_9: -8218473881414168751
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

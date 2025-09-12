@@ -1,0 +1,533 @@
+fileFormatVersion: 2
+guid: 08d7a7546a96f4b46990e01735973b2b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4496408874026279234
+    second: A-Bigfoot-wearing-a-red-star-t-shirt-and-a-helmet--256px-16 (2)_0
+  - first:
+      213: -9057970319794370384
+    second: A-Bigfoot-wearing-a-red-star-t-shirt-and-a-helmet--256px-16 (2)_1
+  - first:
+      213: -4859189123873185219
+    second: A-Bigfoot-wearing-a-red-star-t-shirt-and-a-helmet--256px-16 (2)_2
+  - first:
+      213: -6844220993852798318
+    second: A-Bigfoot-wearing-a-red-star-t-shirt-and-a-helmet--256px-16 (2)_3
+  - first:
+      213: -2655161199772425825
+    second: A-Bigfoot-wearing-a-red-star-t-shirt-and-a-helmet--256px-16 (2)_4
+  - first:
+      213: 830164727864176514
+    second: A-Bigfoot-wearing-a-red-star-t-shirt-and-a-helmet--256px-16 (2)_5
+  - first:
+      213: -591102415221273674
+    second: A-Bigfoot-wearing-a-red-star-t-shirt-and-a-helmet--256px-16 (2)_6
+  - first:
+      213: 3969780076548698996
+    second: A-Bigfoot-wearing-a-red-star-t-shirt-and-a-helmet--256px-16 (2)_7
+  - first:
+      213: 2771763143101002480
+    second: A-Bigfoot-wearing-a-red-star-t-shirt-and-a-helmet--256px-16 (2)_8
+  - first:
+      213: 3788501336303461609
+    second: A-Bigfoot-wearing-a-red-star-t-shirt-and-a-helmet--256px-16 (2)_9
+  - first:
+      213: -6977166731993356744
+    second: A-Bigfoot-wearing-a-red-star-t-shirt-and-a-helmet--256px-16 (2)_10
+  - first:
+      213: 4390090729473041823
+    second: A-Bigfoot-wearing-a-red-star-t-shirt-and-a-helmet--256px-16 (2)_11
+  - first:
+      213: -4427009854214355996
+    second: A-Bigfoot-wearing-a-red-star-t-shirt-and-a-helmet--256px-16 (2)_12
+  - first:
+      213: -5575516234832094492
+    second: A-Bigfoot-wearing-a-red-star-t-shirt-and-a-helmet--256px-16 (2)_13
+  - first:
+      213: 1134040548353539095
+    second: A-Bigfoot-wearing-a-red-star-t-shirt-and-a-helmet--256px-16 (2)_14
+  - first:
+      213: -7556427599255036110
+    second: A-Bigfoot-wearing-a-red-star-t-shirt-and-a-helmet--256px-16 (2)_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: A-Bigfoot-wearing-a-red-star-t-shirt-and-a-helmet--256px-16 (2)_0
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 2141
+        width: 249
+        height: 259
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebedfbab3fb8991c0800000000000000
+      internalID: -4496408874026279234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A-Bigfoot-wearing-a-red-star-t-shirt-and-a-helmet--256px-16 (2)_1
+      rect:
+        serializedVersion: 2
+        x: 850
+        y: 2141
+        width: 248
+        height: 258
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b800ae3cff9b4280800000000000000
+      internalID: -9057970319794370384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A-Bigfoot-wearing-a-red-star-t-shirt-and-a-helmet--256px-16 (2)_2
+      rect:
+        serializedVersion: 2
+        x: 1487
+        y: 2141
+        width: 245
+        height: 246
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d32e817ac31b09cb0800000000000000
+      internalID: -4859189123873185219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A-Bigfoot-wearing-a-red-star-t-shirt-and-a-helmet--256px-16 (2)_3
+      rect:
+        serializedVersion: 2
+        x: 2145
+        y: 2143
+        width: 253
+        height: 261
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29a0221b4417401a0800000000000000
+      internalID: -6844220993852798318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A-Bigfoot-wearing-a-red-star-t-shirt-and-a-helmet--256px-16 (2)_4
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 1548
+        width: 290
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f912a2ad4f8f62bd0800000000000000
+      internalID: -2655161199772425825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A-Bigfoot-wearing-a-red-star-t-shirt-and-a-helmet--256px-16 (2)_5
+      rect:
+        serializedVersion: 2
+        x: 820
+        y: 1566
+        width: 293
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28f276deb66558b00800000000000000
+      internalID: 830164727864176514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A-Bigfoot-wearing-a-red-star-t-shirt-and-a-helmet--256px-16 (2)_6
+      rect:
+        serializedVersion: 2
+        x: 1445
+        y: 1551
+        width: 298
+        height: 247
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bb4cd23c7bfbc7f0800000000000000
+      internalID: -591102415221273674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A-Bigfoot-wearing-a-red-star-t-shirt-and-a-helmet--256px-16 (2)_7
+      rect:
+        serializedVersion: 2
+        x: 2055
+        y: 1492
+        width: 317
+        height: 267
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 473bb1362fd771730800000000000000
+      internalID: 3969780076548698996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A-Bigfoot-wearing-a-red-star-t-shirt-and-a-helmet--256px-16 (2)_8
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 840
+        width: 332
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f23e0aa4e7477620800000000000000
+      internalID: 2771763143101002480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A-Bigfoot-wearing-a-red-star-t-shirt-and-a-helmet--256px-16 (2)_9
+      rect:
+        serializedVersion: 2
+        x: 671
+        y: 842
+        width: 415
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e4e57d94e5739430800000000000000
+      internalID: 3788501336303461609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A-Bigfoot-wearing-a-red-star-t-shirt-and-a-helmet--256px-16 (2)_10
+      rect:
+        serializedVersion: 2
+        x: 1304
+        y: 840
+        width: 431
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 836ecd8e2df1c2f90800000000000000
+      internalID: -6977166731993356744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A-Bigfoot-wearing-a-red-star-t-shirt-and-a-helmet--256px-16 (2)_11
+      rect:
+        serializedVersion: 2
+        x: 1953
+        y: 840
+        width: 431
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f95e9fd324cbcec30800000000000000
+      internalID: 4390090729473041823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A-Bigfoot-wearing-a-red-star-t-shirt-and-a-helmet--256px-16 (2)_12
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 191
+        width: 431
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e3466e2ef91092c0800000000000000
+      internalID: -4427009854214355996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A-Bigfoot-wearing-a-red-star-t-shirt-and-a-helmet--256px-16 (2)_13
+      rect:
+        serializedVersion: 2
+        x: 655
+        y: 191
+        width: 431
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ead8675689cf92b0800000000000000
+      internalID: -5575516234832094492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A-Bigfoot-wearing-a-red-star-t-shirt-and-a-helmet--256px-16 (2)_14
+      rect:
+        serializedVersion: 2
+        x: 1304
+        y: 191
+        width: 431
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71c708dcedbecbf00800000000000000
+      internalID: 1134040548353539095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A-Bigfoot-wearing-a-red-star-t-shirt-and-a-helmet--256px-16 (2)_15
+      rect:
+        serializedVersion: 2
+        x: 1953
+        y: 193
+        width: 431
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23f1277522d222790800000000000000
+      internalID: -7556427599255036110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      A-Bigfoot-wearing-a-red-star-t-shirt-and-a-helmet--256px-16 (2)_0: -4496408874026279234
+      A-Bigfoot-wearing-a-red-star-t-shirt-and-a-helmet--256px-16 (2)_1: -9057970319794370384
+      A-Bigfoot-wearing-a-red-star-t-shirt-and-a-helmet--256px-16 (2)_10: -6977166731993356744
+      A-Bigfoot-wearing-a-red-star-t-shirt-and-a-helmet--256px-16 (2)_11: 4390090729473041823
+      A-Bigfoot-wearing-a-red-star-t-shirt-and-a-helmet--256px-16 (2)_12: -4427009854214355996
+      A-Bigfoot-wearing-a-red-star-t-shirt-and-a-helmet--256px-16 (2)_13: -5575516234832094492
+      A-Bigfoot-wearing-a-red-star-t-shirt-and-a-helmet--256px-16 (2)_14: 1134040548353539095
+      A-Bigfoot-wearing-a-red-star-t-shirt-and-a-helmet--256px-16 (2)_15: -7556427599255036110
+      A-Bigfoot-wearing-a-red-star-t-shirt-and-a-helmet--256px-16 (2)_2: -4859189123873185219
+      A-Bigfoot-wearing-a-red-star-t-shirt-and-a-helmet--256px-16 (2)_3: -6844220993852798318
+      A-Bigfoot-wearing-a-red-star-t-shirt-and-a-helmet--256px-16 (2)_4: -2655161199772425825
+      A-Bigfoot-wearing-a-red-star-t-shirt-and-a-helmet--256px-16 (2)_5: 830164727864176514
+      A-Bigfoot-wearing-a-red-star-t-shirt-and-a-helmet--256px-16 (2)_6: -591102415221273674
+      A-Bigfoot-wearing-a-red-star-t-shirt-and-a-helmet--256px-16 (2)_7: 3969780076548698996
+      A-Bigfoot-wearing-a-red-star-t-shirt-and-a-helmet--256px-16 (2)_8: 2771763143101002480
+      A-Bigfoot-wearing-a-red-star-t-shirt-and-a-helmet--256px-16 (2)_9: 3788501336303461609
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

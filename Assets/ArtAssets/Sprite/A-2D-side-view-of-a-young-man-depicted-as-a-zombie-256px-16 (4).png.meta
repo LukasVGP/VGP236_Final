@@ -1,0 +1,533 @@
+fileFormatVersion: 2
+guid: 09464f50e3272224986f65bbb10065dc
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6013452038317264370
+    second: A-2D-side-view-of-a-young-man-depicted-as-a-zombie-256px-16 (4)_0
+  - first:
+      213: 6218556025416068331
+    second: A-2D-side-view-of-a-young-man-depicted-as-a-zombie-256px-16 (4)_1
+  - first:
+      213: -5485250383390749648
+    second: A-2D-side-view-of-a-young-man-depicted-as-a-zombie-256px-16 (4)_2
+  - first:
+      213: -2065422492376393113
+    second: A-2D-side-view-of-a-young-man-depicted-as-a-zombie-256px-16 (4)_3
+  - first:
+      213: -5509153249490191813
+    second: A-2D-side-view-of-a-young-man-depicted-as-a-zombie-256px-16 (4)_4
+  - first:
+      213: -3227973660254105811
+    second: A-2D-side-view-of-a-young-man-depicted-as-a-zombie-256px-16 (4)_5
+  - first:
+      213: 6954556892909533671
+    second: A-2D-side-view-of-a-young-man-depicted-as-a-zombie-256px-16 (4)_6
+  - first:
+      213: -3367317491164038841
+    second: A-2D-side-view-of-a-young-man-depicted-as-a-zombie-256px-16 (4)_7
+  - first:
+      213: 1777671515158372293
+    second: A-2D-side-view-of-a-young-man-depicted-as-a-zombie-256px-16 (4)_8
+  - first:
+      213: 1607358368905203661
+    second: A-2D-side-view-of-a-young-man-depicted-as-a-zombie-256px-16 (4)_9
+  - first:
+      213: -3572404852684125725
+    second: A-2D-side-view-of-a-young-man-depicted-as-a-zombie-256px-16 (4)_10
+  - first:
+      213: 238352464099381261
+    second: A-2D-side-view-of-a-young-man-depicted-as-a-zombie-256px-16 (4)_11
+  - first:
+      213: -4976367266572238233
+    second: A-2D-side-view-of-a-young-man-depicted-as-a-zombie-256px-16 (4)_12
+  - first:
+      213: 6654817887984806599
+    second: A-2D-side-view-of-a-young-man-depicted-as-a-zombie-256px-16 (4)_13
+  - first:
+      213: 536413257369951423
+    second: A-2D-side-view-of-a-young-man-depicted-as-a-zombie-256px-16 (4)_14
+  - first:
+      213: 3877043760056850342
+    second: A-2D-side-view-of-a-young-man-depicted-as-a-zombie-256px-16 (4)_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: A-2D-side-view-of-a-young-man-depicted-as-a-zombie-256px-16 (4)_0
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 774
+        width: 136
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fdcfb9a4c2147350800000000000000
+      internalID: 6013452038317264370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A-2D-side-view-of-a-young-man-depicted-as-a-zombie-256px-16 (4)_1
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 774
+        width: 149
+        height: 241
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bec2acef1cfbc4650800000000000000
+      internalID: 6218556025416068331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A-2D-side-view-of-a-young-man-depicted-as-a-zombie-256px-16 (4)_2
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 774
+        width: 159
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03c4be1a6d970e3b0800000000000000
+      internalID: -5485250383390749648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A-2D-side-view-of-a-young-man-depicted-as-a-zombie-256px-16 (4)_3
+      rect:
+        serializedVersion: 2
+        x: 782
+        y: 774
+        width: 165
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76a9dceaf252653e0800000000000000
+      internalID: -2065422492376393113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A-2D-side-view-of-a-young-man-depicted-as-a-zombie-256px-16 (4)_4
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 518
+        width: 170
+        height: 227
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3ab2feee4e8b83b0800000000000000
+      internalID: -5509153249490191813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A-2D-side-view-of-a-young-man-depicted-as-a-zombie-256px-16 (4)_5
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 518
+        width: 170
+        height: 227
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2f8c3cfe0fe333d0800000000000000
+      internalID: -3227973660254105811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A-2D-side-view-of-a-young-man-depicted-as-a-zombie-256px-16 (4)_6
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 518
+        width: 170
+        height: 227
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e9fd14b5ac838060800000000000000
+      internalID: 6954556892909533671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A-2D-side-view-of-a-young-man-depicted-as-a-zombie-256px-16 (4)_7
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 518
+        width: 170
+        height: 227
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74935352592e441d0800000000000000
+      internalID: -3367317491164038841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A-2D-side-view-of-a-young-man-depicted-as-a-zombie-256px-16 (4)_8
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 262
+        width: 168
+        height: 229
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5cf585413de8ba810800000000000000
+      internalID: 1777671515158372293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A-2D-side-view-of-a-young-man-depicted-as-a-zombie-256px-16 (4)_9
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 262
+        width: 158
+        height: 238
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dcf885d9beb7e4610800000000000000
+      internalID: 1607358368905203661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A-2D-side-view-of-a-young-man-depicted-as-a-zombie-256px-16 (4)_10
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 262
+        width: 147
+        height: 246
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e981e1c6b44c6ec0800000000000000
+      internalID: -3572404852684125725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A-2D-side-view-of-a-young-man-depicted-as-a-zombie-256px-16 (4)_11
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 262
+        width: 144
+        height: 241
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d009bf1ad4cce4300800000000000000
+      internalID: 238352464099381261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A-2D-side-view-of-a-young-man-depicted-as-a-zombie-256px-16 (4)_12
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 6
+        width: 142
+        height: 217
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7628414465460fab0800000000000000
+      internalID: -4976367266572238233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A-2D-side-view-of-a-young-man-depicted-as-a-zombie-256px-16 (4)_13
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 7
+        width: 134
+        height: 229
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7caef324c99aa5c50800000000000000
+      internalID: 6654817887984806599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A-2D-side-view-of-a-young-man-depicted-as-a-zombie-256px-16 (4)_14
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 6
+        width: 128
+        height: 245
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbc985af309b17700800000000000000
+      internalID: 536413257369951423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A-2D-side-view-of-a-young-man-depicted-as-a-zombie-256px-16 (4)_15
+      rect:
+        serializedVersion: 2
+        x: 771
+        y: 6
+        width: 129
+        height: 245
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a755d022c60ec530800000000000000
+      internalID: 3877043760056850342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      A-2D-side-view-of-a-young-man-depicted-as-a-zombie-256px-16 (4)_0: 6013452038317264370
+      A-2D-side-view-of-a-young-man-depicted-as-a-zombie-256px-16 (4)_1: 6218556025416068331
+      A-2D-side-view-of-a-young-man-depicted-as-a-zombie-256px-16 (4)_10: -3572404852684125725
+      A-2D-side-view-of-a-young-man-depicted-as-a-zombie-256px-16 (4)_11: 238352464099381261
+      A-2D-side-view-of-a-young-man-depicted-as-a-zombie-256px-16 (4)_12: -4976367266572238233
+      A-2D-side-view-of-a-young-man-depicted-as-a-zombie-256px-16 (4)_13: 6654817887984806599
+      A-2D-side-view-of-a-young-man-depicted-as-a-zombie-256px-16 (4)_14: 536413257369951423
+      A-2D-side-view-of-a-young-man-depicted-as-a-zombie-256px-16 (4)_15: 3877043760056850342
+      A-2D-side-view-of-a-young-man-depicted-as-a-zombie-256px-16 (4)_2: -5485250383390749648
+      A-2D-side-view-of-a-young-man-depicted-as-a-zombie-256px-16 (4)_3: -2065422492376393113
+      A-2D-side-view-of-a-young-man-depicted-as-a-zombie-256px-16 (4)_4: -5509153249490191813
+      A-2D-side-view-of-a-young-man-depicted-as-a-zombie-256px-16 (4)_5: -3227973660254105811
+      A-2D-side-view-of-a-young-man-depicted-as-a-zombie-256px-16 (4)_6: 6954556892909533671
+      A-2D-side-view-of-a-young-man-depicted-as-a-zombie-256px-16 (4)_7: -3367317491164038841
+      A-2D-side-view-of-a-young-man-depicted-as-a-zombie-256px-16 (4)_8: 1777671515158372293
+      A-2D-side-view-of-a-young-man-depicted-as-a-zombie-256px-16 (4)_9: 1607358368905203661
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

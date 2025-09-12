@@ -1,0 +1,533 @@
+fileFormatVersion: 2
+guid: f85e9f99d8a16f94aa3c0b5e96df157a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3520977401808312835
+    second: A-2D-side-view-illustration-of-an-elderly-man-with-256px-16_0
+  - first:
+      213: -8865665139069289572
+    second: A-2D-side-view-illustration-of-an-elderly-man-with-256px-16_1
+  - first:
+      213: 7795400649383272001
+    second: A-2D-side-view-illustration-of-an-elderly-man-with-256px-16_2
+  - first:
+      213: 3912310014360509666
+    second: A-2D-side-view-illustration-of-an-elderly-man-with-256px-16_3
+  - first:
+      213: 7732992468793116534
+    second: A-2D-side-view-illustration-of-an-elderly-man-with-256px-16_4
+  - first:
+      213: -3190014845237677613
+    second: A-2D-side-view-illustration-of-an-elderly-man-with-256px-16_5
+  - first:
+      213: -9199736673119500582
+    second: A-2D-side-view-illustration-of-an-elderly-man-with-256px-16_6
+  - first:
+      213: 4908703176529197889
+    second: A-2D-side-view-illustration-of-an-elderly-man-with-256px-16_7
+  - first:
+      213: -7524315105660020334
+    second: A-2D-side-view-illustration-of-an-elderly-man-with-256px-16_8
+  - first:
+      213: -7129062321948151282
+    second: A-2D-side-view-illustration-of-an-elderly-man-with-256px-16_9
+  - first:
+      213: -8770782222843554954
+    second: A-2D-side-view-illustration-of-an-elderly-man-with-256px-16_10
+  - first:
+      213: 6142647014666706964
+    second: A-2D-side-view-illustration-of-an-elderly-man-with-256px-16_11
+  - first:
+      213: -3295123458348212428
+    second: A-2D-side-view-illustration-of-an-elderly-man-with-256px-16_12
+  - first:
+      213: 585408550486000983
+    second: A-2D-side-view-illustration-of-an-elderly-man-with-256px-16_13
+  - first:
+      213: 8588647531394803143
+    second: A-2D-side-view-illustration-of-an-elderly-man-with-256px-16_14
+  - first:
+      213: 5131517512220560219
+    second: A-2D-side-view-illustration-of-an-elderly-man-with-256px-16_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: A-2D-side-view-illustration-of-an-elderly-man-with-256px-16_0
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 636
+        width: 185
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df5a90f35b9f22fc0800000000000000
+      internalID: -3520977401808312835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A-2D-side-view-illustration-of-an-elderly-man-with-256px-16_1
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 636
+        width: 189
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9bf5304784d6f480800000000000000
+      internalID: -8865665139069289572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A-2D-side-view-illustration-of-an-elderly-man-with-256px-16_2
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 636
+        width: 181
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14ed65cb693de2c60800000000000000
+      internalID: 7795400649383272001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A-2D-side-view-illustration-of-an-elderly-man-with-256px-16_3
+      rect:
+        serializedVersion: 2
+        x: 804
+        y: 636
+        width: 182
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ec5921da315b4630800000000000000
+      internalID: 3912310014360509666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A-2D-side-view-illustration-of-an-elderly-man-with-256px-16_4
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 426
+        width: 182
+        height: 204
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6774f21edab115b60800000000000000
+      internalID: 7732992468793116534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A-2D-side-view-illustration-of-an-elderly-man-with-256px-16_5
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 426
+        width: 181
+        height: 204
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d1b261566acab3d0800000000000000
+      internalID: -3190014845237677613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A-2D-side-view-illustration-of-an-elderly-man-with-256px-16_6
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 426
+        width: 181
+        height: 204
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad60493fc38f35080800000000000000
+      internalID: -9199736673119500582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A-2D-side-view-illustration-of-an-elderly-man-with-256px-16_7
+      rect:
+        serializedVersion: 2
+        x: 804
+        y: 426
+        width: 181
+        height: 204
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14bbad818873f1440800000000000000
+      internalID: 4908703176529197889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A-2D-side-view-illustration-of-an-elderly-man-with-256px-16_8
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 216
+        width: 181
+        height: 204
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2995705e643449790800000000000000
+      internalID: -7524315105660020334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A-2D-side-view-illustration-of-an-elderly-man-with-256px-16_9
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 216
+        width: 181
+        height: 204
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e02b8aee69b701d90800000000000000
+      internalID: -7129062321948151282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A-2D-side-view-illustration-of-an-elderly-man-with-256px-16_10
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 216
+        width: 181
+        height: 204
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6735915b90ce74680800000000000000
+      internalID: -8770782222843554954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A-2D-side-view-illustration-of-an-elderly-man-with-256px-16_11
+      rect:
+        serializedVersion: 2
+        x: 804
+        y: 216
+        width: 181
+        height: 204
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 410a2d92ae01f3550800000000000000
+      internalID: 6142647014666706964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A-2D-side-view-illustration-of-an-elderly-man-with-256px-16_12
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 6
+        width: 181
+        height: 204
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43f19164cae5542d0800000000000000
+      internalID: -3295123458348212428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A-2D-side-view-illustration-of-an-elderly-man-with-256px-16_13
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 6
+        width: 181
+        height: 205
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 755c13c99f9cf1800800000000000000
+      internalID: 585408550486000983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A-2D-side-view-illustration-of-an-elderly-man-with-256px-16_14
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 6
+        width: 198
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c5a2d9dc61013770800000000000000
+      internalID: 8588647531394803143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A-2D-side-view-illustration-of-an-elderly-man-with-256px-16_15
+      rect:
+        serializedVersion: 2
+        x: 804
+        y: 6
+        width: 220
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5b4a9a4dffc63740800000000000000
+      internalID: 5131517512220560219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      A-2D-side-view-illustration-of-an-elderly-man-with-256px-16_0: -3520977401808312835
+      A-2D-side-view-illustration-of-an-elderly-man-with-256px-16_1: -8865665139069289572
+      A-2D-side-view-illustration-of-an-elderly-man-with-256px-16_10: -8770782222843554954
+      A-2D-side-view-illustration-of-an-elderly-man-with-256px-16_11: 6142647014666706964
+      A-2D-side-view-illustration-of-an-elderly-man-with-256px-16_12: -3295123458348212428
+      A-2D-side-view-illustration-of-an-elderly-man-with-256px-16_13: 585408550486000983
+      A-2D-side-view-illustration-of-an-elderly-man-with-256px-16_14: 8588647531394803143
+      A-2D-side-view-illustration-of-an-elderly-man-with-256px-16_15: 5131517512220560219
+      A-2D-side-view-illustration-of-an-elderly-man-with-256px-16_2: 7795400649383272001
+      A-2D-side-view-illustration-of-an-elderly-man-with-256px-16_3: 3912310014360509666
+      A-2D-side-view-illustration-of-an-elderly-man-with-256px-16_4: 7732992468793116534
+      A-2D-side-view-illustration-of-an-elderly-man-with-256px-16_5: -3190014845237677613
+      A-2D-side-view-illustration-of-an-elderly-man-with-256px-16_6: -9199736673119500582
+      A-2D-side-view-illustration-of-an-elderly-man-with-256px-16_7: 4908703176529197889
+      A-2D-side-view-illustration-of-an-elderly-man-with-256px-16_8: -7524315105660020334
+      A-2D-side-view-illustration-of-an-elderly-man-with-256px-16_9: -7129062321948151282
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
