@@ -119,35 +119,6 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1 &33339179 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 6222933217584089134, guid: 7813ca6d884ffa6479ba5e22cc6a3215, type: 3}
-  m_PrefabInstance: {fileID: 3547573932951948803}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &33339185
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 33339179}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1f34d1503040d8845854a462158249a4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  singleShotPrefab: {fileID: 6808495094915030059, guid: 66e42ae0dda6c054286f4bb580ec93f4, type: 3}
-  buckshotPrefab: {fileID: 0}
-  rocketPrefab: {fileID: 0}
-  firePoint: {fileID: 987301500}
-  fireRate: 0.5
-  gunBarrelTransform: {fileID: 1242612345}
-  recoilDistance: 0.2
-  recoilSpeed: 20
-  defaultMuzzleFlashPrefab: {fileID: 0}
-  buckshotMuzzleFlashPrefab: {fileID: 0}
-  rocketMuzzleFlashPrefab: {fileID: 0}
-  muzzleFlashDuration: 0.1
 --- !u!1001 &66618083
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -699,15 +670,13 @@ PrefabInstance:
       objectReference: {fileID: 802719163309470401, guid: 2d5c172cdb92e4243b322c9900d8152e, type: 3}
     m_RemovedComponents:
     - {fileID: -2960283178689936304, guid: 7813ca6d884ffa6479ba5e22cc6a3215, type: 3}
+    - {fileID: 2814393382219449171, guid: 7813ca6d884ffa6479ba5e22cc6a3215, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects:
     - targetCorrespondingSourceObject: {fileID: 713886885385888901, guid: 7813ca6d884ffa6479ba5e22cc6a3215, type: 3}
       insertIndex: -1
       addedObject: {fileID: 987301500}
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 6222933217584089134, guid: 7813ca6d884ffa6479ba5e22cc6a3215, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 33339185}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7813ca6d884ffa6479ba5e22cc6a3215, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
