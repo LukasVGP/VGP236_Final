@@ -144,6 +144,67 @@ MonoBehaviour:
   gunBarrelTransform: {fileID: 1242612345}
   recoilDistance: 0.2
   recoilSpeed: 20
+  defaultMuzzleFlashPrefab: {fileID: 0}
+  buckshotMuzzleFlashPrefab: {fileID: 0}
+  rocketMuzzleFlashPrefab: {fileID: 0}
+  muzzleFlashDuration: 0.1
+--- !u!1001 &66618083
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 964819190646016218, guid: 5a4ec6d6b964bf94b8c24741c192a915, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -10.976477
+      objectReference: {fileID: 0}
+    - target: {fileID: 964819190646016218, guid: 5a4ec6d6b964bf94b8c24741c192a915, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -2.6975121
+      objectReference: {fileID: 0}
+    - target: {fileID: 964819190646016218, guid: 5a4ec6d6b964bf94b8c24741c192a915, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 964819190646016218, guid: 5a4ec6d6b964bf94b8c24741c192a915, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 964819190646016218, guid: 5a4ec6d6b964bf94b8c24741c192a915, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 964819190646016218, guid: 5a4ec6d6b964bf94b8c24741c192a915, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 964819190646016218, guid: 5a4ec6d6b964bf94b8c24741c192a915, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 964819190646016218, guid: 5a4ec6d6b964bf94b8c24741c192a915, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 964819190646016218, guid: 5a4ec6d6b964bf94b8c24741c192a915, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 964819190646016218, guid: 5a4ec6d6b964bf94b8c24741c192a915, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1162552823709780870, guid: 5a4ec6d6b964bf94b8c24741c192a915, type: 3}
+      propertyPath: m_Name
+      value: Buckshot_pickup
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 5a4ec6d6b964bf94b8c24741c192a915, type: 3}
 --- !u!1001 &72905791
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -511,6 +572,63 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &2096089519
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 3547951640981024193, guid: 9eaa360ad47cf304b898fc6635b483f2, type: 3}
+      propertyPath: m_Name
+      value: Rocket Pickup
+      objectReference: {fileID: 0}
+    - target: {fileID: 9119284946624985577, guid: 9eaa360ad47cf304b898fc6635b483f2, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -9.313255
+      objectReference: {fileID: 0}
+    - target: {fileID: 9119284946624985577, guid: 9eaa360ad47cf304b898fc6635b483f2, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -2.2980483
+      objectReference: {fileID: 0}
+    - target: {fileID: 9119284946624985577, guid: 9eaa360ad47cf304b898fc6635b483f2, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9119284946624985577, guid: 9eaa360ad47cf304b898fc6635b483f2, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7103184
+      objectReference: {fileID: 0}
+    - target: {fileID: 9119284946624985577, guid: 9eaa360ad47cf304b898fc6635b483f2, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9119284946624985577, guid: 9eaa360ad47cf304b898fc6635b483f2, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9119284946624985577, guid: 9eaa360ad47cf304b898fc6635b483f2, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.7038806
+      objectReference: {fileID: 0}
+    - target: {fileID: 9119284946624985577, guid: 9eaa360ad47cf304b898fc6635b483f2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9119284946624985577, guid: 9eaa360ad47cf304b898fc6635b483f2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9119284946624985577, guid: 9eaa360ad47cf304b898fc6635b483f2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 89.478
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 9eaa360ad47cf304b898fc6635b483f2, type: 3}
 --- !u!1001 &3547573932951948803
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -563,7 +681,24 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 6352805091364419265, guid: 7813ca6d884ffa6479ba5e22cc6a3215, type: 3}
+      propertyPath: rocketPrefab
+      value: 
+      objectReference: {fileID: 7034762364960205111, guid: 76172041e0deb6645be5b61bd0cc98a4, type: 3}
+    - target: {fileID: 6352805091364419265, guid: 7813ca6d884ffa6479ba5e22cc6a3215, type: 3}
+      propertyPath: buckshotPrefab
+      value: 
+      objectReference: {fileID: 6395432540439168303, guid: b6215649e6a7345438eaac47aa596d0e, type: 3}
+    - target: {fileID: 6352805091364419265, guid: 7813ca6d884ffa6479ba5e22cc6a3215, type: 3}
+      propertyPath: rocketMuzzleFlashPrefab
+      value: 
+      objectReference: {fileID: 3248170158911829811, guid: 7bf86bfa739da8e4490fa55ec9242951, type: 3}
+    - target: {fileID: 6352805091364419265, guid: 7813ca6d884ffa6479ba5e22cc6a3215, type: 3}
+      propertyPath: buckshotMuzzleFlashPrefab
+      value: 
+      objectReference: {fileID: 802719163309470401, guid: 2d5c172cdb92e4243b322c9900d8152e, type: 3}
+    m_RemovedComponents:
+    - {fileID: -2960283178689936304, guid: 7813ca6d884ffa6479ba5e22cc6a3215, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects:
     - targetCorrespondingSourceObject: {fileID: 713886885385888901, guid: 7813ca6d884ffa6479ba5e22cc6a3215, type: 3}
@@ -583,3 +718,5 @@ SceneRoots:
   - {fileID: 72905791}
   - {fileID: 3547573932951948803}
   - {fileID: 2007656347}
+  - {fileID: 2096089519}
+  - {fileID: 66618083}

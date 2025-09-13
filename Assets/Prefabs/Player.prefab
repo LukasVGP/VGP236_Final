@@ -107,7 +107,7 @@ GameObject:
   - component: {fileID: 3308631376054108793}
   - component: {fileID: 8531124393266639214}
   - component: {fileID: 6352805091364419265}
-  - component: {fileID: -2960283178689936304}
+  - component: {fileID: 2814393382219449171}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -289,114 +289,41 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   singleShotPrefab: {fileID: 6808495094915030059, guid: 66e42ae0dda6c054286f4bb580ec93f4, type: 3}
-  buckshotPrefab: {fileID: 0}
-  rocketPrefab: {fileID: 0}
+  buckshotPrefab: {fileID: 6395432540439168303, guid: b6215649e6a7345438eaac47aa596d0e, type: 3}
+  rocketPrefab: {fileID: 7034762364960205111, guid: 76172041e0deb6645be5b61bd0cc98a4, type: 3}
   firePoint: {fileID: 7247049081666143907}
   fireRate: 1.5
   gunBarrelTransform: {fileID: 713886885385888901}
   recoilDistance: 0.3
   recoilSpeed: 10
   defaultMuzzleFlashPrefab: {fileID: 8341920420151092268, guid: 4d06a7877bac8a342938bfb9e5086dec, type: 3}
-  buckshotMuzzleFlashPrefab: {fileID: 0}
-  rocketMuzzleFlashPrefab: {fileID: 0}
+  buckshotMuzzleFlashPrefab: {fileID: 802719163309470401, guid: 2d5c172cdb92e4243b322c9900d8152e, type: 3}
+  rocketMuzzleFlashPrefab: {fileID: 3248170158911829811, guid: 7bf86bfa739da8e4490fa55ec9242951, type: 3}
   muzzleFlashDuration: 0.1
---- !u!82 &-2960283178689936304
-AudioSource:
+--- !u!114 &2814393382219449171
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6222933217584089134}
   m_Enabled: 1
-  serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
-  m_Resource: {fileID: 8300000, guid: e03d21964e17b094a938466c9a7a71a1, type: 3}
-  m_PlayOnAwake: 0
-  m_Volume: 1
-  m_Pitch: 1
-  Loop: 0
-  Mute: 0
-  Spatialize: 0
-  SpatializePostEffects: 0
-  Priority: 128
-  DopplerLevel: 1
-  MinDistance: 1
-  MaxDistance: 500
-  Pan2D: 0
-  rolloffMode: 0
-  BypassEffects: 0
-  BypassListenerEffects: 0
-  BypassReverbZones: 0
-  rolloffCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    - serializedVersion: 3
-      time: 1
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  panLevelCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  spreadCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  reverbZoneMixCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f34d1503040d8845854a462158249a4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  singleShotPrefab: {fileID: 6808495094915030059, guid: 66e42ae0dda6c054286f4bb580ec93f4, type: 3}
+  buckshotPrefab: {fileID: 6395432540439168303, guid: b6215649e6a7345438eaac47aa596d0e, type: 3}
+  rocketPrefab: {fileID: 7034762364960205111, guid: 76172041e0deb6645be5b61bd0cc98a4, type: 3}
+  firePoint: {fileID: 8698114355131089077}
+  fireRate: 0.5
+  gunBarrelTransform: {fileID: 713886885385888901}
+  recoilDistance: 0.2
+  recoilSpeed: 20
+  defaultMuzzleFlashPrefab: {fileID: 8341920420151092268, guid: 4d06a7877bac8a342938bfb9e5086dec, type: 3}
+  buckshotMuzzleFlashPrefab: {fileID: 802719163309470401, guid: 2d5c172cdb92e4243b322c9900d8152e, type: 3}
+  rocketMuzzleFlashPrefab: {fileID: 3248170158911829811, guid: 7bf86bfa739da8e4490fa55ec9242951, type: 3}
+  muzzleFlashDuration: 0.1
 --- !u!1 &7653237058453679291
 GameObject:
   m_ObjectHideFlags: 0
@@ -426,7 +353,8 @@ Transform:
   m_LocalPosition: {x: 0.482, y: 0.341, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 8698114355131089077}
   m_Father: {fileID: 1936322911943266147}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &4709066597883384570
@@ -484,3 +412,34 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &7926127096956937768
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8698114355131089077}
+  m_Layer: 0
+  m_Name: Firepoint
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8698114355131089077
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7926127096956937768}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.113, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 713886885385888901}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
