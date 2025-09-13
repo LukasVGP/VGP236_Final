@@ -90,9 +90,17 @@ public class EnemyAI : MonoBehaviour
     // Handles the shooting logic for the enemy.
     private void Shoot()
     {
-        if (projectilePrefab != null && firePoint != null)
+        if (projectilePrefab != null && firePoint != null && player != null)
         {
-            Instantiate(projectilePrefab, firePoint.position, firePoint.rotation);
+            // Calculate the direction from the fire point to the player.
+            Vector2 direction = (player.position - firePoint.position).normalized;
+
+            // Calculate the rotation to face the player.
+            float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
+            Quaternion rotation = Quaternion.Euler(0, 0, angle);
+
+            // Instantiate the projectile with the new rotation.
+            Instantiate(projectilePrefab, firePoint.position, rotation);
         }
     }
 

@@ -46,7 +46,7 @@ GameObject:
   - component: {fileID: 6667882475739406389}
   m_Layer: 0
   m_Name: Bigfoot_enemy_schooting
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -203,5 +203,5 @@ MonoBehaviour:
   damage: 3
   moveSpeed: 1
   player: {fileID: 0}
-  projectilePrefab: {fileID: 6808495094915030059, guid: 66e42ae0dda6c054286f4bb580ec93f4, type: 3}
+  projectilePrefab: {fileID: 6808495094915030059, guid: dce57ce8e9f53c24c99f5ecc04964c72, type: 3}
   firePoint: {fileID: 4603677604736708066}
