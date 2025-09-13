@@ -11,11 +11,18 @@ public class PlayerController : MonoBehaviour
     public LayerMask groundLayer;
     public float rocketBurnTime = 0.5f;
     public float rocketCooldown = 2.0f;
-    public Blunderbuss blunderbuss; // New reference to the Blunderbuss script
+    public Blunderbuss blunderbuss;
+
+    // --- Variables for the rocket jump effect ---
+    public GameObject rocketJumpMuzzleFlashPrefab;
+    public Transform rocketJumpFirePoint;
+    public AudioClip rocketJumpSound;
+    // --------------------------------------------------
 
     // References to other components.
     private Rigidbody2D rb;
     private Animator animator;
+    private AudioSource audioSource;
 
     // Tracks if the player is on the ground.
     private bool isGrounded;
@@ -26,11 +33,11 @@ public class PlayerController : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
-        // Optional: Find the Blunderbuss component if not set in the Inspector.
         if (blunderbuss == null)
         {
             blunderbuss = GetComponentInChildren<Blunderbuss>();
         }
+        audioSource = GetComponent<AudioSource>();
     }
 
     void Update()
@@ -45,7 +52,6 @@ public class PlayerController : MonoBehaviour
         // Handle jumping and rocket jump.
         if (Input.GetButtonDown("Jump") && isGrounded && !isRocketJumping)
         {
-            // Check if the player has rocket ammo.
             if (GameManager.Instance.currentAmmoType == AmmoType.Rocket && canRocketJump)
             {
                 StartCoroutine(RocketJumpRoutine());
@@ -56,9 +62,8 @@ public class PlayerController : MonoBehaviour
             }
         }
 
-        // --- New code for mouse-based shooting and ammo switching ---
         // Handle shooting input
-        if (Input.GetButtonDown("Fire1")) // "Fire1" is typically the left mouse button
+        if (Input.GetButtonDown("Fire1"))
         {
             if (blunderbuss != null)
             {
@@ -74,22 +79,21 @@ public class PlayerController : MonoBehaviour
         }
 
         // Handle ammo switching input
-        if (Input.GetKeyDown(KeyCode.Alpha1)) // Press '1' for Default ammo
+        if (Input.GetKeyDown(KeyCode.Alpha1))
         {
             GameManager.Instance.currentAmmoType = AmmoType.Default;
             Debug.Log("Switched to Default Ammo");
         }
-        if (Input.GetKeyDown(KeyCode.Alpha2)) // Press '2' for Buckshot ammo
+        if (Input.GetKeyDown(KeyCode.Alpha2))
         {
             GameManager.Instance.currentAmmoType = AmmoType.Buckshot;
             Debug.Log("Switched to Buckshot Ammo");
         }
-        if (Input.GetKeyDown(KeyCode.Alpha3)) // Press '3' for Rocket ammo
+        if (Input.GetKeyDown(KeyCode.Alpha3))
         {
             GameManager.Instance.currentAmmoType = AmmoType.Rocket;
             Debug.Log("Switched to Rocket Ammo");
         }
-        // -------------------------------------------------------------
     }
 
     // Coroutine for the rocket jump.
@@ -98,6 +102,18 @@ public class PlayerController : MonoBehaviour
         isRocketJumping = true;
         canRocketJump = false;
 
+        // Play sound and spawn muzzle flash on rocket jump.
+        if (rocketJumpMuzzleFlashPrefab != null && rocketJumpFirePoint != null)
+        {
+            // Instantiate the muzzle flash.
+            Instantiate(rocketJumpMuzzleFlashPrefab, rocketJumpFirePoint.position, rocketJumpFirePoint.rotation);
+        }
+        if (audioSource != null && rocketJumpSound != null)
+        {
+            audioSource.clip = rocketJumpSound;
+            audioSource.Play();
+        }
+
         float timer = 0f;
         while (timer < rocketBurnTime)
         {
@@ -105,6 +121,12 @@ public class PlayerController : MonoBehaviour
             rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce);
             timer += Time.deltaTime;
             yield return null;
+        }
+
+        // Stop the sound when the burn time is over.
+        if (audioSource != null && audioSource.isPlaying)
+        {
+            audioSource.Stop();
         }
 
         // After the burn time, set vertical velocity to zero to allow gravity to take over.

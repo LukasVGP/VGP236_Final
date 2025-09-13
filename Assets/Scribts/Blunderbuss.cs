@@ -11,7 +11,7 @@ public class Blunderbuss : MonoBehaviour
     public Transform firePoint;
     public float fireRate = 0.5f;
 
-    // --- New variables for recoil and sound ---
+    // --- Variables for recoil and sound ---
     public Transform gunBarrelTransform;
     public float recoilDistance = 0.2f;
     public float recoilSpeed = 20f;
@@ -19,10 +19,16 @@ public class Blunderbuss : MonoBehaviour
     private AudioSource audioSource;
     // ------------------------------------------
 
+    // --- Variables for different muzzle flashes ---
+    public GameObject defaultMuzzleFlashPrefab;
+    public GameObject buckshotMuzzleFlashPrefab;
+    public GameObject rocketMuzzleFlashPrefab;
+    public float muzzleFlashDuration = 0.1f;
+    // ------------------------------------------
+
     // References to other components.
     private Coroutine fireCoroutine;
 
-    // --- New Start method to initialize variables ---
     void Start()
     {
         // Cache the initial position of the barrel for recoil reset.
@@ -34,7 +40,6 @@ public class Blunderbuss : MonoBehaviour
         // Get the AudioSource component on the same GameObject.
         audioSource = GetComponent<AudioSource>();
     }
-    // --------------------------------------------------
 
     // Handles the shooting input.
     public void StartShooting()
@@ -67,54 +72,60 @@ public class Blunderbuss : MonoBehaviour
     // Handles the actual firing of a projectile.
     private void Fire()
     {
-        // Get the current ammo type from the GameManager.
         AmmoType currentAmmoType = GameManager.Instance.currentAmmoType;
 
-        // Check if the player has ammo for the selected type.
         if (GameManager.Instance.GetAmmoCount(currentAmmoType) > 0)
         {
-            // --- Play sound and start recoil before firing ---
             if (audioSource != null && audioSource.clip != null)
             {
                 audioSource.Play();
             }
             StartCoroutine(RecoilRoutine());
-            // ----------------------------------------------------
 
-            // Instantiate the correct projectile prefab.
+            // Instantiate the correct projectile and muzzle flash based on ammo type.
             switch (currentAmmoType)
             {
                 case AmmoType.Buckshot:
-                    // Code for firing buckshot.
                     if (buckshotPrefab != null)
                     {
                         Instantiate(buckshotPrefab, firePoint.position, firePoint.rotation);
+                        if (buckshotMuzzleFlashPrefab != null)
+                        {
+                            StartCoroutine(MuzzleFlashRoutine(buckshotMuzzleFlashPrefab));
+                        }
                     }
                     break;
                 case AmmoType.Rocket:
-                    // Code for firing a rocket.
                     if (rocketPrefab != null)
                     {
                         Instantiate(rocketPrefab, firePoint.position, firePoint.rotation);
+                        if (rocketMuzzleFlashPrefab != null)
+                        {
+                            StartCoroutine(MuzzleFlashRoutine(rocketMuzzleFlashPrefab));
+                        }
                     }
                     break;
                 case AmmoType.Default:
-                    // Instantiate a single shot projectile.
                     if (singleShotPrefab != null)
                     {
                         Instantiate(singleShotPrefab, firePoint.position, firePoint.rotation);
+                        if (defaultMuzzleFlashPrefab != null)
+                        {
+                            StartCoroutine(MuzzleFlashRoutine(defaultMuzzleFlashPrefab));
+                        }
                     }
                     break;
             }
 
-            // Deduct the ammo after firing.
             GameManager.Instance.DeductAmmo(currentAmmoType);
         }
     }
 
-    // --- New Coroutine for Recoil ---
+    // Coroutine for Recoil.
     private IEnumerator RecoilRoutine()
     {
+        if (gunBarrelTransform == null) yield break;
+
         Vector3 recoilPosition = initialBarrelPosition - new Vector3(recoilDistance, 0, 0);
 
         // Move the barrel back.
@@ -133,5 +144,18 @@ public class Blunderbuss : MonoBehaviour
 
         gunBarrelTransform.localPosition = initialBarrelPosition;
     }
-    // ------------------------------------
+
+    // Coroutine for Muzzle Flash.
+    private IEnumerator MuzzleFlashRoutine(GameObject muzzleFlashPrefabToUse)
+    {
+        if (muzzleFlashPrefabToUse != null && firePoint != null)
+        {
+            // Instantiate the muzzle flash as a child of the fire point.
+            GameObject muzzleFlash = Instantiate(muzzleFlashPrefabToUse, firePoint.position, firePoint.rotation, firePoint);
+            // Wait for the specified duration.
+            yield return new WaitForSeconds(muzzleFlashDuration);
+            // Destroy the muzzle flash GameObject.
+            Destroy(muzzleFlash);
+        }
+    }
 }
