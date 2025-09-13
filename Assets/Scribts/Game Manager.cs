@@ -119,8 +119,22 @@ public class GameManager : MonoBehaviour
     // Handles pickup events.
     public void HandlePickup(PickupType type, int amount)
     {
-        // This is a placeholder and should be implemented with more specific logic.
-        // For now, it's a basic implementation.
-        // This method will be expanded as we implement the UI and pickups.
+        switch (type)
+        {
+            case PickupType.BuckshotAmmo:
+                AddAmmo(AmmoType.Buckshot, amount);
+                Debug.Log("Picked up " + amount + " Buckshot Ammo.");
+                break;
+            case PickupType.RocketAmmo:
+                AddAmmo(AmmoType.Rocket, amount);
+                Debug.Log("Picked up " + amount + " Rocket Ammo.");
+                break;
+            case PickupType.Life:
+                lives += amount;
+                Debug.Log("Picked up a Life.");
+                break;
+            default:
+                break;
+        }
     }
 }

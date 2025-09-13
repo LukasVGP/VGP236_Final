@@ -1,0 +1,611 @@
+fileFormatVersion: 2
+guid: d976385dd281f304089f75639fe326fb
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6843455298338967768
+    second: buckshot_0
+  - first:
+      213: -1400653981718925283
+    second: buckshot_1
+  - first:
+      213: -6989638307556193920
+    second: buckshot_2
+  - first:
+      213: -908002982287225357
+    second: buckshot_3
+  - first:
+      213: 5037619420819328927
+    second: buckshot_4
+  - first:
+      213: -7171364242452788210
+    second: buckshot_5
+  - first:
+      213: 4761413385517178586
+    second: buckshot_6
+  - first:
+      213: 5213383581247554086
+    second: buckshot_7
+  - first:
+      213: -4514121856166198207
+    second: buckshot_8
+  - first:
+      213: -3126213225962198243
+    second: buckshot_9
+  - first:
+      213: -832426611199477840
+    second: buckshot_10
+  - first:
+      213: -1075385558597866740
+    second: buckshot_11
+  - first:
+      213: -5336858575731622852
+    second: buckshot_12
+  - first:
+      213: 5136720394429696388
+    second: buckshot_13
+  - first:
+      213: -5321214643421681028
+    second: buckshot_14
+  - first:
+      213: -2844931334952770418
+    second: buckshot_15
+  - first:
+      213: 5173065156780131781
+    second: buckshot_16
+  - first:
+      213: 899348307006452901
+    second: buckshot_17
+  - first:
+      213: 8379418827135139601
+    second: buckshot_18
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: buckshot_0
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 623
+        width: 107
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d052cde556d8fe50800000000000000
+      internalID: 6843455298338967768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buckshot_1
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 569
+        width: 71
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d103866ef90ef8ce0800000000000000
+      internalID: -1400653981718925283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buckshot_2
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 612
+        width: 111
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08986a1fdf0dffe90800000000000000
+      internalID: -6989638307556193920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buckshot_3
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 637
+        width: 62
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fd46c139102663f0800000000000000
+      internalID: -908002982287225357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buckshot_4
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 576
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9f8b8b3c2839e540800000000000000
+      internalID: 5037619420819328927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buckshot_5
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 558
+        width: 71
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0cc9ad87323a7c90800000000000000
+      internalID: -7171364242452788210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buckshot_6
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 508
+        width: 71
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ade9a804f30f31240800000000000000
+      internalID: 4761413385517178586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buckshot_7
+      rect:
+        serializedVersion: 2
+        x: 569
+        y: 507
+        width: 71
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6224d16deb8a95840800000000000000
+      internalID: 5213383581247554086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buckshot_8
+      rect:
+        serializedVersion: 2
+        x: 633
+        y: 460
+        width: 128
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1440362b61e9a51c0800000000000000
+      internalID: -4514121856166198207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buckshot_9
+      rect:
+        serializedVersion: 2
+        x: 739
+        y: 541
+        width: 63
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1b256662a57d94d0800000000000000
+      internalID: -3126213225962198243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buckshot_10
+      rect:
+        serializedVersion: 2
+        x: 847
+        y: 540
+        width: 63
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b77fd15860a274f0800000000000000
+      internalID: -832426611199477840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buckshot_11
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 478
+        width: 116
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0b603738867311f0800000000000000
+      internalID: -1075385558597866740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buckshot_12
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 481
+        width: 116
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3cf409b66bafe5b0800000000000000
+      internalID: -5336858575731622852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buckshot_13
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 464
+        width: 73
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4898c74bbfb494740800000000000000
+      internalID: 5136720394429696388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buckshot_14
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 428
+        width: 110
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7a6e3d897f3726b0800000000000000
+      internalID: -5321214643421681028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buckshot_15
+      rect:
+        serializedVersion: 2
+        x: 805
+        y: 479
+        width: 64
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8423c12606c488d0800000000000000
+      internalID: -2844931334952770418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buckshot_16
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 398
+        width: 111
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c584dd1a5b6ac740800000000000000
+      internalID: 5173065156780131781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buckshot_17
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 390
+        width: 112
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a4f77035802b7c00800000000000000
+      internalID: 899348307006452901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buckshot_18
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 325
+        width: 67
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11f3c97f60da94470800000000000000
+      internalID: 8379418827135139601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      buckshot_0: 6843455298338967768
+      buckshot_1: -1400653981718925283
+      buckshot_10: -832426611199477840
+      buckshot_11: -1075385558597866740
+      buckshot_12: -5336858575731622852
+      buckshot_13: 5136720394429696388
+      buckshot_14: -5321214643421681028
+      buckshot_15: -2844931334952770418
+      buckshot_16: 5173065156780131781
+      buckshot_17: 899348307006452901
+      buckshot_18: 8379418827135139601
+      buckshot_2: -6989638307556193920
+      buckshot_3: -908002982287225357
+      buckshot_4: 5037619420819328927
+      buckshot_5: -7171364242452788210
+      buckshot_6: 4761413385517178586
+      buckshot_7: 5213383581247554086
+      buckshot_8: -4514121856166198207
+      buckshot_9: -3126213225962198243
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
