@@ -11,6 +11,7 @@ public class PlayerController : MonoBehaviour
     public LayerMask groundLayer;
     public float rocketBurnTime = 0.5f;
     public float rocketCooldown = 2.0f;
+    public Blunderbuss blunderbuss; // New reference to the Blunderbuss script
 
     // References to other components.
     private Rigidbody2D rb;
@@ -25,6 +26,11 @@ public class PlayerController : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
+        // Optional: Find the Blunderbuss component if not set in the Inspector.
+        if (blunderbuss == null)
+        {
+            blunderbuss = GetComponentInChildren<Blunderbuss>();
+        }
     }
 
     void Update()
@@ -49,6 +55,41 @@ public class PlayerController : MonoBehaviour
                 rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce);
             }
         }
+
+        // --- New code for mouse-based shooting and ammo switching ---
+        // Handle shooting input
+        if (Input.GetButtonDown("Fire1")) // "Fire1" is typically the left mouse button
+        {
+            if (blunderbuss != null)
+            {
+                blunderbuss.StartShooting();
+            }
+        }
+        else if (Input.GetButtonUp("Fire1"))
+        {
+            if (blunderbuss != null)
+            {
+                blunderbuss.StopShooting();
+            }
+        }
+
+        // Handle ammo switching input
+        if (Input.GetKeyDown(KeyCode.Alpha1)) // Press '1' for Default ammo
+        {
+            GameManager.Instance.currentAmmoType = AmmoType.Default;
+            Debug.Log("Switched to Default Ammo");
+        }
+        if (Input.GetKeyDown(KeyCode.Alpha2)) // Press '2' for Buckshot ammo
+        {
+            GameManager.Instance.currentAmmoType = AmmoType.Buckshot;
+            Debug.Log("Switched to Buckshot Ammo");
+        }
+        if (Input.GetKeyDown(KeyCode.Alpha3)) // Press '3' for Rocket ammo
+        {
+            GameManager.Instance.currentAmmoType = AmmoType.Rocket;
+            Debug.Log("Switched to Rocket Ammo");
+        }
+        // -------------------------------------------------------------
     }
 
     // Coroutine for the rocket jump.
