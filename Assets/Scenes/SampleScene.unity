@@ -119,6 +119,11 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!4 &33339185 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1936322911943266147, guid: 7813ca6d884ffa6479ba5e22cc6a3215, type: 3}
+  m_PrefabInstance: {fileID: 3547573932951948803}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &66618083
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -527,7 +532,16 @@ MonoBehaviour:
   score: 0
   currentAmmoType: 0
   levelOrder: []
-  enemyStats: []
+  enemyStats:
+  - health: 0
+    damage: 0
+    moveSpeed: 0
+  - health: 100
+    damage: 5
+    moveSpeed: 1
+  - health: 100
+    damage: 5
+    moveSpeed: 1
 --- !u!4 &2007656347
 Transform:
   m_ObjectHideFlags: 0
@@ -543,6 +557,71 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &2062004400
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 6667882475739406389, guid: f012e9bee27c7c142ba017fe63380206, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 33339185}
+    - target: {fileID: 7030137856664881671, guid: f012e9bee27c7c142ba017fe63380206, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -6.8951526
+      objectReference: {fileID: 0}
+    - target: {fileID: 7030137856664881671, guid: f012e9bee27c7c142ba017fe63380206, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -2.5918746
+      objectReference: {fileID: 0}
+    - target: {fileID: 7030137856664881671, guid: f012e9bee27c7c142ba017fe63380206, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7030137856664881671, guid: f012e9bee27c7c142ba017fe63380206, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7030137856664881671, guid: f012e9bee27c7c142ba017fe63380206, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7030137856664881671, guid: f012e9bee27c7c142ba017fe63380206, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7030137856664881671, guid: f012e9bee27c7c142ba017fe63380206, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7030137856664881671, guid: f012e9bee27c7c142ba017fe63380206, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7030137856664881671, guid: f012e9bee27c7c142ba017fe63380206, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7030137856664881671, guid: f012e9bee27c7c142ba017fe63380206, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7276996961085752799, guid: f012e9bee27c7c142ba017fe63380206, type: 3}
+      propertyPath: m_Name
+      value: Bigfoot_enemy_schooting
+      objectReference: {fileID: 0}
+    - target: {fileID: 7276996961085752799, guid: f012e9bee27c7c142ba017fe63380206, type: 3}
+      propertyPath: m_TagString
+      value: Enemy
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f012e9bee27c7c142ba017fe63380206, type: 3}
 --- !u!1001 &2096089519
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -689,3 +768,4 @@ SceneRoots:
   - {fileID: 2007656347}
   - {fileID: 2096089519}
   - {fileID: 66618083}
+  - {fileID: 2062004400}
