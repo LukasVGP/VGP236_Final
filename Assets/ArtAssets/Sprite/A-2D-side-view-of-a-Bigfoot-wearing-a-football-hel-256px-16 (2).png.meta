@@ -1,0 +1,533 @@
+fileFormatVersion: 2
+guid: e269cf7a589a86145a756698f4febf4f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6725953983060134437
+    second: A-2D-side-view-of-a-Bigfoot-wearing-a-football-hel-256px-16 (2)_0
+  - first:
+      213: -1756955358186868028
+    second: A-2D-side-view-of-a-Bigfoot-wearing-a-football-hel-256px-16 (2)_1
+  - first:
+      213: -3443689920162942772
+    second: A-2D-side-view-of-a-Bigfoot-wearing-a-football-hel-256px-16 (2)_2
+  - first:
+      213: -2520591056939050642
+    second: A-2D-side-view-of-a-Bigfoot-wearing-a-football-hel-256px-16 (2)_3
+  - first:
+      213: -799466496771033545
+    second: A-2D-side-view-of-a-Bigfoot-wearing-a-football-hel-256px-16 (2)_4
+  - first:
+      213: -1147642130166510086
+    second: A-2D-side-view-of-a-Bigfoot-wearing-a-football-hel-256px-16 (2)_5
+  - first:
+      213: -1127174842976420415
+    second: A-2D-side-view-of-a-Bigfoot-wearing-a-football-hel-256px-16 (2)_6
+  - first:
+      213: 8787157259368146674
+    second: A-2D-side-view-of-a-Bigfoot-wearing-a-football-hel-256px-16 (2)_7
+  - first:
+      213: -415962570850293901
+    second: A-2D-side-view-of-a-Bigfoot-wearing-a-football-hel-256px-16 (2)_8
+  - first:
+      213: 8369313839599416271
+    second: A-2D-side-view-of-a-Bigfoot-wearing-a-football-hel-256px-16 (2)_9
+  - first:
+      213: -6078624987391275523
+    second: A-2D-side-view-of-a-Bigfoot-wearing-a-football-hel-256px-16 (2)_10
+  - first:
+      213: -888833999689362478
+    second: A-2D-side-view-of-a-Bigfoot-wearing-a-football-hel-256px-16 (2)_11
+  - first:
+      213: 8299415849639591131
+    second: A-2D-side-view-of-a-Bigfoot-wearing-a-football-hel-256px-16 (2)_12
+  - first:
+      213: -5818080007532152327
+    second: A-2D-side-view-of-a-Bigfoot-wearing-a-football-hel-256px-16 (2)_13
+  - first:
+      213: -2427547390121601992
+    second: A-2D-side-view-of-a-Bigfoot-wearing-a-football-hel-256px-16 (2)_14
+  - first:
+      213: -1711667889441924851
+    second: A-2D-side-view-of-a-Bigfoot-wearing-a-football-hel-256px-16 (2)_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: A-2D-side-view-of-a-Bigfoot-wearing-a-football-hel-256px-16 (2)_0
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 1663
+        width: 180
+        height: 262
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd5b310fc7c98a2a0800000000000000
+      internalID: -6725953983060134437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A-2D-side-view-of-a-Bigfoot-wearing-a-football-hel-256px-16 (2)_1
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 1663
+        width: 206
+        height: 276
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c27d05196a0e97e0800000000000000
+      internalID: -1756955358186868028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A-2D-side-view-of-a-Bigfoot-wearing-a-football-hel-256px-16 (2)_2
+      rect:
+        serializedVersion: 2
+        x: 1227
+        y: 1664
+        width: 227
+        height: 271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc03818534e8530d0800000000000000
+      internalID: -3443689920162942772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A-2D-side-view-of-a-Bigfoot-wearing-a-football-hel-256px-16 (2)_3
+      rect:
+        serializedVersion: 2
+        x: 1770
+        y: 1665
+        width: 235
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e691f13d9cf050dd0800000000000000
+      internalID: -2520591056939050642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A-2D-side-view-of-a-Bigfoot-wearing-a-football-hel-256px-16 (2)_4
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 1150
+        width: 201
+        height: 268
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 736f22af479b7e4f0800000000000000
+      internalID: -799466496771033545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A-2D-side-view-of-a-Bigfoot-wearing-a-football-hel-256px-16 (2)_5
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 1152
+        width: 258
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afd07262091c210f0800000000000000
+      internalID: -1147642130166510086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A-2D-side-view-of-a-Bigfoot-wearing-a-football-hel-256px-16 (2)_6
+      rect:
+        serializedVersion: 2
+        x: 1118
+        y: 1153
+        width: 345
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1cd32acc3787b50f0800000000000000
+      internalID: -1127174842976420415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A-2D-side-view-of-a-Bigfoot-wearing-a-football-hel-256px-16 (2)_7
+      rect:
+        serializedVersion: 2
+        x: 1596
+        y: 1138
+        width: 377
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f6222698f042f970800000000000000
+      internalID: 8787157259368146674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A-2D-side-view-of-a-Bigfoot-wearing-a-football-hel-256px-16 (2)_8
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 626
+        width: 377
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3772c94ee343a3af0800000000000000
+      internalID: -415962570850293901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A-2D-side-view-of-a-Bigfoot-wearing-a-football-hel-256px-16 (2)_9
+      rect:
+        serializedVersion: 2
+        x: 572
+        y: 626
+        width: 377
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc375173896c52470800000000000000
+      internalID: 8369313839599416271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A-2D-side-view-of-a-Bigfoot-wearing-a-football-hel-256px-16 (2)_10
+      rect:
+        serializedVersion: 2
+        x: 1103
+        y: 626
+        width: 352
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfdcab7a7c264aba0800000000000000
+      internalID: -6078624987391275523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A-2D-side-view-of-a-Bigfoot-wearing-a-football-hel-256px-16 (2)_11
+      rect:
+        serializedVersion: 2
+        x: 1723
+        y: 640
+        width: 218
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d3d930cf2a3aa3f0800000000000000
+      internalID: -888833999689362478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A-2D-side-view-of-a-Bigfoot-wearing-a-football-hel-256px-16 (2)_12
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 127
+        width: 201
+        height: 258
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bdcb3093eb27d2370800000000000000
+      internalID: 8299415849639591131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A-2D-side-view-of-a-Bigfoot-wearing-a-football-hel-256px-16 (2)_13
+      rect:
+        serializedVersion: 2
+        x: 738
+        y: 127
+        width: 201
+        height: 258
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f97e340f07024fa0800000000000000
+      internalID: -5818080007532152327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A-2D-side-view-of-a-Bigfoot-wearing-a-football-hel-256px-16 (2)_14
+      rect:
+        serializedVersion: 2
+        x: 1146
+        y: 129
+        width: 315
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8341068a28e9f4ed0800000000000000
+      internalID: -2427547390121601992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A-2D-side-view-of-a-Bigfoot-wearing-a-football-hel-256px-16 (2)_15
+      rect:
+        serializedVersion: 2
+        x: 1596
+        y: 114
+        width: 377
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d091f549f1fee38e0800000000000000
+      internalID: -1711667889441924851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      A-2D-side-view-of-a-Bigfoot-wearing-a-football-hel-256px-16 (2)_0: -6725953983060134437
+      A-2D-side-view-of-a-Bigfoot-wearing-a-football-hel-256px-16 (2)_1: -1756955358186868028
+      A-2D-side-view-of-a-Bigfoot-wearing-a-football-hel-256px-16 (2)_10: -6078624987391275523
+      A-2D-side-view-of-a-Bigfoot-wearing-a-football-hel-256px-16 (2)_11: -888833999689362478
+      A-2D-side-view-of-a-Bigfoot-wearing-a-football-hel-256px-16 (2)_12: 8299415849639591131
+      A-2D-side-view-of-a-Bigfoot-wearing-a-football-hel-256px-16 (2)_13: -5818080007532152327
+      A-2D-side-view-of-a-Bigfoot-wearing-a-football-hel-256px-16 (2)_14: -2427547390121601992
+      A-2D-side-view-of-a-Bigfoot-wearing-a-football-hel-256px-16 (2)_15: -1711667889441924851
+      A-2D-side-view-of-a-Bigfoot-wearing-a-football-hel-256px-16 (2)_2: -3443689920162942772
+      A-2D-side-view-of-a-Bigfoot-wearing-a-football-hel-256px-16 (2)_3: -2520591056939050642
+      A-2D-side-view-of-a-Bigfoot-wearing-a-football-hel-256px-16 (2)_4: -799466496771033545
+      A-2D-side-view-of-a-Bigfoot-wearing-a-football-hel-256px-16 (2)_5: -1147642130166510086
+      A-2D-side-view-of-a-Bigfoot-wearing-a-football-hel-256px-16 (2)_6: -1127174842976420415
+      A-2D-side-view-of-a-Bigfoot-wearing-a-football-hel-256px-16 (2)_7: 8787157259368146674
+      A-2D-side-view-of-a-Bigfoot-wearing-a-football-hel-256px-16 (2)_8: -415962570850293901
+      A-2D-side-view-of-a-Bigfoot-wearing-a-football-hel-256px-16 (2)_9: 8369313839599416271
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

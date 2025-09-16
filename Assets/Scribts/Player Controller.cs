@@ -1,5 +1,6 @@
 using System.Collections;
 using UnityEngine;
+using UnityEngine.SceneManagement; // Import the SceneManagement namespace
 
 // PlayerController.cs: Manages all player input and movement.
 public class PlayerController : MonoBehaviour
@@ -19,6 +20,11 @@ public class PlayerController : MonoBehaviour
     public AudioClip rocketJumpSound;
     // --------------------------------------------------
 
+    // --- Health Variables ---
+    public int maxHealth = 100;
+    private int currentHealth;
+    // -----------------------------
+
     // References to other components.
     private Rigidbody2D rb;
     private Animator animator;
@@ -29,6 +35,48 @@ public class PlayerController : MonoBehaviour
     private bool isRocketJumping = false;
     private bool canRocketJump = true;
 
+    // Use a static reference for the Singleton pattern
+    public static PlayerController instance;
+
+    void Awake()
+    {
+        // Enforce the Singleton pattern.
+        if (instance == null)
+        {
+            instance = this;
+            // This is the crucial line: it prevents the player from being destroyed.
+            DontDestroyOnLoad(gameObject);
+        }
+        else
+        {
+            // If another player already exists, destroy this one.
+            Destroy(gameObject);
+        }
+    }
+
+    void OnEnable()
+    {
+        // Subscribe to the sceneLoaded event when the object is enabled.
+        SceneManager.sceneLoaded += OnSceneLoaded;
+    }
+
+    void OnDisable()
+    {
+        // Unsubscribe from the event when the object is disabled.
+        SceneManager.sceneLoaded -= OnSceneLoaded;
+    }
+
+    void OnSceneLoaded(Scene scene, LoadSceneMode mode)
+    {
+        // Find the spawn point in the new scene.
+        SpawnPoint spawnPoint = FindObjectOfType<SpawnPoint>();
+        if (spawnPoint != null)
+        {
+            // Move the player to the spawn point's position.
+            transform.position = spawnPoint.transform.position;
+        }
+    }
+
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -38,6 +86,9 @@ public class PlayerController : MonoBehaviour
             blunderbuss = GetComponentInChildren<Blunderbuss>();
         }
         audioSource = GetComponent<AudioSource>();
+
+        // Set the player's current health to their max health at the start of the level.
+        currentHealth = maxHealth;
     }
 
     void Update()
@@ -52,7 +103,7 @@ public class PlayerController : MonoBehaviour
         // Handle jumping and rocket jump.
         if (Input.GetButtonDown("Jump") && isGrounded && !isRocketJumping)
         {
-            if (GameManager.Instance.currentAmmoType == AmmoType.Rocket && canRocketJump)
+            if (GameManager.Instance.GetAmmoCount(AmmoType.Rocket) > 0 && canRocketJump)
             {
                 StartCoroutine(RocketJumpRoutine());
             }
@@ -102,11 +153,11 @@ public class PlayerController : MonoBehaviour
         isRocketJumping = true;
         canRocketJump = false;
 
-        // Play sound and spawn muzzle flash on rocket jump.
+        GameManager.Instance.DeductAmmo(AmmoType.Rocket);
+
         if (rocketJumpMuzzleFlashPrefab != null && rocketJumpFirePoint != null)
         {
-            // Instantiate the muzzle flash.
-            Instantiate(rocketJumpMuzzleFlashPrefab, rocketJumpFirePoint.position, rocketJumpFirePoint.rotation);
+            Instantiate(rocketJumpMuzzleFlashPrefab, rocketJumpFirePoint.position, rocketJumpFirePoint.rotation, rocketJumpFirePoint);
         }
         if (audioSource != null && rocketJumpSound != null)
         {
@@ -117,19 +168,16 @@ public class PlayerController : MonoBehaviour
         float timer = 0f;
         while (timer < rocketBurnTime)
         {
-            // Apply upward force without overriding horizontal velocity.
             rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce);
             timer += Time.deltaTime;
             yield return null;
         }
 
-        // Stop the sound when the burn time is over.
         if (audioSource != null && audioSource.isPlaying)
         {
             audioSource.Stop();
         }
 
-        // After the burn time, set vertical velocity to zero to allow gravity to take over.
         rb.linearVelocity = new Vector2(rb.linearVelocity.x, 0);
 
         isRocketJumping = false;
@@ -140,7 +188,10 @@ public class PlayerController : MonoBehaviour
     // Handles taking damage from enemies or hazards.
     public void TakeDamage(int damage)
     {
-        if (GameManager.Instance != null)
+        currentHealth -= damage;
+        Debug.Log("Player took " + damage + " damage. Current health: " + currentHealth);
+
+        if (currentHealth <= 0)
         {
             GameManager.Instance.OnPlayerDeath();
         }

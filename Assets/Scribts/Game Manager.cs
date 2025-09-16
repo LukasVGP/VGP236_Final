@@ -14,6 +14,21 @@ public class GameManager : MonoBehaviour
     public AmmoType currentAmmoType;
     public Dictionary<AmmoType, int> ammoCount = new Dictionary<AmmoType, int>();
 
+    // We use a private dictionary and a public serializable list.
+    private Dictionary<AmmoType, int> ammoDamage = new Dictionary<AmmoType, int>();
+
+    // --- New: A serializable class to hold the damage pairs ---
+    [System.Serializable]
+    public class AmmoDamagePair
+    {
+        public AmmoType ammoType;
+        public int damage;
+    }
+    // -----------------------------------------------------------
+
+    [Header("Ammo Damage")]
+    public AmmoDamagePair[] ammoDamageList;
+
     [Header("Level Progression")]
     public string[] levelOrder;
     private int currentLevelIndex = 0;
@@ -22,10 +37,10 @@ public class GameManager : MonoBehaviour
     [Header("Enemy Stats")]
     public EnemyStats[] enemyStats;
 
-    // Define EnemyStats as a nested class here.
     [System.Serializable]
     public class EnemyStats
     {
+        public EnemyType enemyType;
         public float health;
         public float damage;
         public float moveSpeed;
@@ -37,7 +52,7 @@ public class GameManager : MonoBehaviour
         if (Instance == null)
         {
             Instance = this;
-            DontDestroyOnLoad(gameObject); // Ensures the GameManager persists across scenes.
+            DontDestroyOnLoad(gameObject);
         }
         else
         {
@@ -48,6 +63,25 @@ public class GameManager : MonoBehaviour
         ammoCount.Add(AmmoType.Default, 999);
         ammoCount.Add(AmmoType.Buckshot, 0);
         ammoCount.Add(AmmoType.Rocket, 0);
+
+        // Populate the ammoDamage dictionary from the serializable list.
+        foreach (var pair in ammoDamageList)
+        {
+            if (!ammoDamage.ContainsKey(pair.ammoType))
+            {
+                ammoDamage.Add(pair.ammoType, pair.damage);
+            }
+        }
+    }
+
+    // Public method to get the ammo damage.
+    public int GetAmmoDamage(AmmoType type)
+    {
+        if (ammoDamage.ContainsKey(type))
+        {
+            return ammoDamage[type];
+        }
+        return 0;
     }
 
     // Handles player death and respawn.
@@ -56,14 +90,15 @@ public class GameManager : MonoBehaviour
         lives--;
         if (lives <= 0)
         {
-            // Load Game Over screen.
             SceneManager.LoadScene("GameOverMenu");
         }
         else
         {
             // Respawn at the last save point.
-            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
-            // Player.instance.transform.position = lastSavePointPosition; // Requires Player reference.
+            if (PlayerController.instance != null)
+            {
+                PlayerController.instance.transform.position = lastSavePointPosition;
+            }
         }
     }
 
@@ -71,6 +106,7 @@ public class GameManager : MonoBehaviour
     public void SetSavePoint(Vector3 position)
     {
         lastSavePointPosition = position;
+        Debug.Log("Save point set at: " + position);
     }
 
     // Loads the next level in the sequence.
@@ -83,9 +119,15 @@ public class GameManager : MonoBehaviour
         }
         else
         {
-            // All levels complete, load win screen.
             SceneManager.LoadScene("GameWinMenu");
         }
+    }
+
+    // Adds coins to the score.
+    public void AddCoins(int amount)
+    {
+        score += amount;
+        Debug.Log("Score: " + score);
     }
 
     // Adds ammo of a specific type.

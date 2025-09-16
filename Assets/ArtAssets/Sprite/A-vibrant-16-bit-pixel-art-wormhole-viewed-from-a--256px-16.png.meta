@@ -1,0 +1,533 @@
+fileFormatVersion: 2
+guid: b95ca202021ade04193ca9db93344413
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 9001291594836116238
+    second: A-vibrant-16-bit-pixel-art-wormhole-viewed-from-a--256px-16_0
+  - first:
+      213: -7414919270693045768
+    second: A-vibrant-16-bit-pixel-art-wormhole-viewed-from-a--256px-16_1
+  - first:
+      213: 5201951525144163313
+    second: A-vibrant-16-bit-pixel-art-wormhole-viewed-from-a--256px-16_2
+  - first:
+      213: -4158956595121040583
+    second: A-vibrant-16-bit-pixel-art-wormhole-viewed-from-a--256px-16_3
+  - first:
+      213: 218978434202930841
+    second: A-vibrant-16-bit-pixel-art-wormhole-viewed-from-a--256px-16_4
+  - first:
+      213: 7690828707314360611
+    second: A-vibrant-16-bit-pixel-art-wormhole-viewed-from-a--256px-16_5
+  - first:
+      213: 1942359742502946273
+    second: A-vibrant-16-bit-pixel-art-wormhole-viewed-from-a--256px-16_6
+  - first:
+      213: 5730966653813229336
+    second: A-vibrant-16-bit-pixel-art-wormhole-viewed-from-a--256px-16_7
+  - first:
+      213: 8853460370672161466
+    second: A-vibrant-16-bit-pixel-art-wormhole-viewed-from-a--256px-16_8
+  - first:
+      213: -2930194355931195655
+    second: A-vibrant-16-bit-pixel-art-wormhole-viewed-from-a--256px-16_9
+  - first:
+      213: 7654935355588819726
+    second: A-vibrant-16-bit-pixel-art-wormhole-viewed-from-a--256px-16_10
+  - first:
+      213: 9019791888847907126
+    second: A-vibrant-16-bit-pixel-art-wormhole-viewed-from-a--256px-16_11
+  - first:
+      213: -8833156923990075065
+    second: A-vibrant-16-bit-pixel-art-wormhole-viewed-from-a--256px-16_12
+  - first:
+      213: -297701425974942408
+    second: A-vibrant-16-bit-pixel-art-wormhole-viewed-from-a--256px-16_13
+  - first:
+      213: 4443075013371062391
+    second: A-vibrant-16-bit-pixel-art-wormhole-viewed-from-a--256px-16_14
+  - first:
+      213: -7842342679178976259
+    second: A-vibrant-16-bit-pixel-art-wormhole-viewed-from-a--256px-16_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: A-vibrant-16-bit-pixel-art-wormhole-viewed-from-a--256px-16_0
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 1662
+        width: 262
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e038aedb3030bec70800000000000000
+      internalID: 9001291594836116238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A-vibrant-16-bit-pixel-art-wormhole-viewed-from-a--256px-16_1
+      rect:
+        serializedVersion: 2
+        x: 634
+        y: 1657
+        width: 272
+        height: 267
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f97420953ae81990800000000000000
+      internalID: -7414919270693045768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A-vibrant-16-bit-pixel-art-wormhole-viewed-from-a--256px-16_2
+      rect:
+        serializedVersion: 2
+        x: 1141
+        y: 1653
+        width: 282
+        height: 273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f3f40bd95b013840800000000000000
+      internalID: 5201951525144163313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A-vibrant-16-bit-pixel-art-wormhole-viewed-from-a--256px-16_3
+      rect:
+        serializedVersion: 2
+        x: 1650
+        y: 1648
+        width: 288
+        height: 282
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 933da87030b6846c0800000000000000
+      internalID: -4158956595121040583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A-vibrant-16-bit-pixel-art-wormhole-viewed-from-a--256px-16_4
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 1131
+        width: 295
+        height: 290
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99e0328c9b7f90300800000000000000
+      internalID: 218978434202930841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A-vibrant-16-bit-pixel-art-wormhole-viewed-from-a--256px-16_5
+      rect:
+        serializedVersion: 2
+        x: 618
+        y: 1126
+        width: 304
+        height: 299
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32169d726ff4bba60800000000000000
+      internalID: 7690828707314360611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A-vibrant-16-bit-pixel-art-wormhole-viewed-from-a--256px-16_6
+      rect:
+        serializedVersion: 2
+        x: 1125
+        y: 1120
+        width: 315
+        height: 313
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e548ed05e5a4fa10800000000000000
+      internalID: 1942359742502946273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A-vibrant-16-bit-pixel-art-wormhole-viewed-from-a--256px-16_7
+      rect:
+        serializedVersion: 2
+        x: 1631
+        y: 1115
+        width: 324
+        height: 324
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8178524cecb788f40800000000000000
+      internalID: 5730966653813229336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A-vibrant-16-bit-pixel-art-wormhole-viewed-from-a--256px-16_8
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 599
+        width: 335
+        height: 331
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab299eaac4fcdda70800000000000000
+      internalID: 8853460370672161466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A-vibrant-16-bit-pixel-art-wormhole-viewed-from-a--256px-16_9
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 595
+        width: 350
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f6ddd312cbd557d0800000000000000
+      internalID: -2930194355931195655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A-vibrant-16-bit-pixel-art-wormhole-viewed-from-a--256px-16_10
+      rect:
+        serializedVersion: 2
+        x: 1102
+        y: 592
+        width: 357
+        height: 348
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0b3378f52bcb3a60800000000000000
+      internalID: 7654935355588819726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A-vibrant-16-bit-pixel-art-wormhole-viewed-from-a--256px-16_11
+      rect:
+        serializedVersion: 2
+        x: 1606
+        y: 584
+        width: 370
+        height: 363
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 639aaba1fecbc2d70800000000000000
+      internalID: 9019791888847907126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A-vibrant-16-bit-pixel-art-wormhole-viewed-from-a--256px-16_12
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 66
+        width: 383
+        height: 374
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7491a44e3925a6580800000000000000
+      internalID: -8833156923990075065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A-vibrant-16-bit-pixel-art-wormhole-viewed-from-a--256px-16_13
+      rect:
+        serializedVersion: 2
+        x: 572
+        y: 60
+        width: 395
+        height: 384
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 835e2af512a5edbf0800000000000000
+      internalID: -297701425974942408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A-vibrant-16-bit-pixel-art-wormhole-viewed-from-a--256px-16_14
+      rect:
+        serializedVersion: 2
+        x: 1078
+        y: 52
+        width: 408
+        height: 401
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 778656a2f29f8ad30800000000000000
+      internalID: 4443075013371062391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A-vibrant-16-bit-pixel-art-wormhole-viewed-from-a--256px-16_15
+      rect:
+        serializedVersion: 2
+        x: 1581
+        y: 42
+        width: 423
+        height: 417
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df3e6a042e66a2390800000000000000
+      internalID: -7842342679178976259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      A-vibrant-16-bit-pixel-art-wormhole-viewed-from-a--256px-16_0: 9001291594836116238
+      A-vibrant-16-bit-pixel-art-wormhole-viewed-from-a--256px-16_1: -7414919270693045768
+      A-vibrant-16-bit-pixel-art-wormhole-viewed-from-a--256px-16_10: 7654935355588819726
+      A-vibrant-16-bit-pixel-art-wormhole-viewed-from-a--256px-16_11: 9019791888847907126
+      A-vibrant-16-bit-pixel-art-wormhole-viewed-from-a--256px-16_12: -8833156923990075065
+      A-vibrant-16-bit-pixel-art-wormhole-viewed-from-a--256px-16_13: -297701425974942408
+      A-vibrant-16-bit-pixel-art-wormhole-viewed-from-a--256px-16_14: 4443075013371062391
+      A-vibrant-16-bit-pixel-art-wormhole-viewed-from-a--256px-16_15: -7842342679178976259
+      A-vibrant-16-bit-pixel-art-wormhole-viewed-from-a--256px-16_2: 5201951525144163313
+      A-vibrant-16-bit-pixel-art-wormhole-viewed-from-a--256px-16_3: -4158956595121040583
+      A-vibrant-16-bit-pixel-art-wormhole-viewed-from-a--256px-16_4: 218978434202930841
+      A-vibrant-16-bit-pixel-art-wormhole-viewed-from-a--256px-16_5: 7690828707314360611
+      A-vibrant-16-bit-pixel-art-wormhole-viewed-from-a--256px-16_6: 1942359742502946273
+      A-vibrant-16-bit-pixel-art-wormhole-viewed-from-a--256px-16_7: 5730966653813229336
+      A-vibrant-16-bit-pixel-art-wormhole-viewed-from-a--256px-16_8: 8853460370672161466
+      A-vibrant-16-bit-pixel-art-wormhole-viewed-from-a--256px-16_9: -2930194355931195655
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

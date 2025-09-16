@@ -1,32 +1,20 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Door : MonoBehaviour
 {
-    // A reference to the GameManager.
-    private GameManager gameManager;
-
-    private void Start()
-    {
-        // Find the GameManager in the scene.
-        gameManager = GameManager.Instance;
-    }
+    // Public variable to set the target scene in the Inspector.
+    // You can type the name of the scene here.
+    public string targetSceneName;
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        // Check if the player has entered the door's trigger zone.
+        // Check if the collider entering the trigger belongs to the player.
+        // It's important that your player GameObject has the "Player" tag.
         if (other.CompareTag("Player"))
         {
-            // You might want to add a prompt here for the player to press 'E'.
-        }
-    }
-
-    private void OnTriggerStay2D(Collider2D other)
-    {
-        // Check if the player is in the trigger zone and pressing the "E" key.
-        if (other.CompareTag("Player") && Input.GetKeyDown(KeyCode.E))
-        {
-            // Tell the GameManager to load the next level.
-            gameManager.LoadNextLevel();
+            // Load the specified target scene.
+            SceneManager.LoadScene(targetSceneName);
         }
     }
 }
