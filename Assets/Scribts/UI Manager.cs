@@ -1,6 +1,6 @@
+using TMPro;
 using UnityEngine;
-using UnityEngine.UI; // For older Text components
-using TMPro; // For TextMeshPro
+using UnityEngine.UI;
 
 public class UI_Manager : MonoBehaviour
 {
@@ -13,12 +13,14 @@ public class UI_Manager : MonoBehaviour
     public TMP_Text standardAmmoText;
     public TMP_Text explodingAmmoText;
     public TMP_Text buckshotAmmoText;
+    public Image healthBarFill; // Public variable for the filled health bar image
 
     private void Awake()
     {
         if (Instance == null)
         {
             Instance = this;
+            DontDestroyOnLoad(gameObject);
         }
         else
         {
@@ -47,5 +49,15 @@ public class UI_Manager : MonoBehaviour
         if (standardAmmoText != null) standardAmmoText.text = "Standard: " + standard;
         if (explodingAmmoText != null) explodingAmmoText.text = "Exploding: " + exploding;
         if (buckshotAmmoText != null) buckshotAmmoText.text = "Buckshot: " + buckshot;
+    }
+
+    // --- Updated method to update the health bar ---
+    public void UpdateHealthBar(int currentHealth, int maxHealth)
+    {
+        if (healthBarFill != null)
+        {
+            // Set the fillAmount of the image based on the health percentage.
+            healthBarFill.fillAmount = (float)currentHealth / maxHealth;
+        }
     }
 }

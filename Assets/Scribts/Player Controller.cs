@@ -1,6 +1,6 @@
 using System.Collections;
 using UnityEngine;
-using UnityEngine.SceneManagement; // Import the SceneManagement namespace
+using UnityEngine.SceneManagement;
 
 // PlayerController.cs: Manages all player input and movement.
 public class PlayerController : MonoBehaviour

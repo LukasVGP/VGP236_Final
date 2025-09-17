@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Ground
   - Enemy
+  - Background
   layers:
   - Default
   - TransparentFX
@@ -13,7 +14,7 @@ TagManager:
   - Ground
   - Water
   - UI
-  - 
+  - Background
   - 
   - 
   - 
@@ -42,6 +43,12 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Background
+    uniqueID: 140709679
+    locked: 0
+  - name: Forground
+    uniqueID: 3772173921
     locked: 0
   m_RenderingLayers:
   - Default
