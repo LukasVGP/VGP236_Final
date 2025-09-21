@@ -46,7 +46,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7030137856664881671, guid: f012e9bee27c7c142ba017fe63380206, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -1.97
+      value: 10.58
       objectReference: {fileID: 0}
     - target: {fileID: 7030137856664881671, guid: f012e9bee27c7c142ba017fe63380206, type: 3}
       propertyPath: m_LocalPosition.y
@@ -125,3 +125,29 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03a4eb149a500844fa11572aebb088bd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  enemyType: 3
+  player: {fileID: 0}
+  projectilePrefab: {fileID: 6808495094915030059, guid: dce57ce8e9f53c24c99f5ecc04964c72, type: 3}
+  firePoint: {fileID: 7835357424893262817}
+  front: {fileID: 7545027238878295248}
+  back: {fileID: 7147922433088498368}
+  meleeAttackDistance: 2
+  shootingAttackDistance: 10
+  speedUpHealthThreshold: 0.2
+  speedUpMultiplier: 2
+  meleeKnockbackForce: 500
+--- !u!1 &7147922433088498368 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3489658486285073603, guid: f012e9bee27c7c142ba017fe63380206, type: 3}
+  m_PrefabInstance: {fileID: 6007595691268625923}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &7545027238878295248 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4317287656750277331, guid: f012e9bee27c7c142ba017fe63380206, type: 3}
+  m_PrefabInstance: {fileID: 6007595691268625923}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &7835357424893262817 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4603677604736708066, guid: f012e9bee27c7c142ba017fe63380206, type: 3}
+  m_PrefabInstance: {fileID: 6007595691268625923}
+  m_PrefabAsset: {fileID: 0}
