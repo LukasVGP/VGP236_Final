@@ -6,26 +6,27 @@ public class EnemyAI : MonoBehaviour
 {
     // Public variables set in the Unity Inspector.
     public EnemyType enemyType;
-    public float health;
-    public float damage;
-    public float moveSpeed;
+    protected float health;
+    protected float damage;
+    protected float moveSpeed;
+    protected float maxHealth;
 
     // References to other components.
     public Transform player;
     public GameObject projectilePrefab;
     public Transform firePoint;
 
-    private Rigidbody2D rb;
-    private bool isActive = false; // New variable to track if the enemy is active.
+    protected Rigidbody2D rb;
+    protected bool isActive = false; // New variable to track if the enemy is active.
 
-    // --- Variables for flipping ---
+    // --- New variables for flipping ---
     public GameObject front;
     public GameObject back;
     private bool facingRight = true;
     // ----------------------------------
 
     // Change the Start method to just get references, and use a new public method to start behavior.
-    void Start()
+    protected virtual void Start()
     {
         // Get the enemy stats from the GameManager.
         GameManager.EnemyStats stats = GameManager.Instance.enemyStats[(int)enemyType];
@@ -73,35 +74,41 @@ public class EnemyAI : MonoBehaviour
     {
         if (isActive && player != null) // Only run if the enemy is active.
         {
-            // Flip the enemy based on player position.
+            // --- New: Flip the enemy based on player position ---
             Flip(player.position.x);
+            // ---------------------------------------------------
 
             Vector2 direction = (player.position - transform.position).normalized;
             rb.linearVelocity = new Vector2(direction.x * moveSpeed, rb.linearVelocity.y);
         }
     }
 
+    // --- New Flip() method ---
     private void Flip(float playerXPosition)
     {
+        // If the player is to the right and the enemy is not facing right...
         if (playerXPosition > transform.position.x && !facingRight)
         {
             facingRight = true;
-            front.transform.rotation = Quaternion.Euler(0, 0, 0);
+            front.transform.rotation = Quaternion.Euler(0, 0, 0); // Face right
             back.transform.rotation = Quaternion.Euler(0, 0, 180);
         }
+        // If the player is to the left and the enemy is facing right...
         else if (playerXPosition < transform.position.x && facingRight)
         {
             facingRight = false;
-            front.transform.rotation = Quaternion.Euler(0, 180, 0);
+            front.transform.rotation = Quaternion.Euler(0, 180, 0); // Face left
             back.transform.rotation = Quaternion.Euler(0, 180, 180);
         }
     }
+    // ---------------------------------------
 
     // Coroutine for the Melee enemy's behavior.
     private IEnumerator MeleeBehavior()
     {
         while (true)
         {
+            // The enemy simply moves towards the player to make contact.
             yield return null;
         }
     }
@@ -111,6 +118,7 @@ public class EnemyAI : MonoBehaviour
     {
         while (true)
         {
+            // Enemy stops, shoots, and waits.
             rb.linearVelocity = Vector2.zero;
             Shoot();
             yield return new WaitForSeconds(2.0f);
@@ -122,6 +130,7 @@ public class EnemyAI : MonoBehaviour
     {
         while (true)
         {
+            // Enemy waits, then charges at the player.
             yield return new WaitForSeconds(2.0f);
             Vector2 direction = (player.position - transform.position).normalized;
             rb.linearVelocity = new Vector2(direction.x * moveSpeed * 2, rb.linearVelocity.y);
@@ -129,13 +138,18 @@ public class EnemyAI : MonoBehaviour
     }
 
     // Handles the shooting logic for the enemy.
-    private void Shoot()
+    protected void Shoot()
     {
         if (projectilePrefab != null && firePoint != null && player != null)
         {
+            // Calculate the direction from the fire point to the player.
             Vector2 direction = (player.position - firePoint.position).normalized;
+
+            // Calculate the rotation to face the player.
             float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
             Quaternion rotation = Quaternion.Euler(0, 0, angle);
+
+            // Instantiate the projectile with the new rotation.
             Instantiate(projectilePrefab, firePoint.position, rotation);
         }
     }
@@ -164,7 +178,7 @@ public class EnemyAI : MonoBehaviour
             PlayerController player = collision.gameObject.GetComponent<PlayerController>();
             if (player != null)
             {
-                player.TakeDamage((int)damage);
+                player.TakeDamage((int)damage); // Cast to int
             }
 
             if (enemyType == EnemyType.Ramming)
