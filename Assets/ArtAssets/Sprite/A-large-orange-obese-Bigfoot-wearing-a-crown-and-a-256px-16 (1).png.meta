@@ -1,0 +1,559 @@
+fileFormatVersion: 2
+guid: 76e611f4066a8684793422b3916a9523
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -9208074231839359614
+    second: A-large-orange-obese-Bigfoot-wearing-a-crown-and-a-256px-16 (1)_0
+  - first:
+      213: 4983181382288019428
+    second: A-large-orange-obese-Bigfoot-wearing-a-crown-and-a-256px-16 (1)_1
+  - first:
+      213: 1064414780639188400
+    second: A-large-orange-obese-Bigfoot-wearing-a-crown-and-a-256px-16 (1)_2
+  - first:
+      213: -6960791716032561374
+    second: A-large-orange-obese-Bigfoot-wearing-a-crown-and-a-256px-16 (1)_3
+  - first:
+      213: -6038954018433845361
+    second: A-large-orange-obese-Bigfoot-wearing-a-crown-and-a-256px-16 (1)_4
+  - first:
+      213: -5405603323972350840
+    second: A-large-orange-obese-Bigfoot-wearing-a-crown-and-a-256px-16 (1)_5
+  - first:
+      213: -5612760143434482095
+    second: A-large-orange-obese-Bigfoot-wearing-a-crown-and-a-256px-16 (1)_6
+  - first:
+      213: -8185683077916231254
+    second: A-large-orange-obese-Bigfoot-wearing-a-crown-and-a-256px-16 (1)_7
+  - first:
+      213: -8742967666226682708
+    second: A-large-orange-obese-Bigfoot-wearing-a-crown-and-a-256px-16 (1)_8
+  - first:
+      213: -3295365951714781849
+    second: A-large-orange-obese-Bigfoot-wearing-a-crown-and-a-256px-16 (1)_9
+  - first:
+      213: 2887845096685148832
+    second: A-large-orange-obese-Bigfoot-wearing-a-crown-and-a-256px-16 (1)_10
+  - first:
+      213: 3825311535437699650
+    second: A-large-orange-obese-Bigfoot-wearing-a-crown-and-a-256px-16 (1)_11
+  - first:
+      213: -7048395485785585616
+    second: A-large-orange-obese-Bigfoot-wearing-a-crown-and-a-256px-16 (1)_12
+  - first:
+      213: -2782610137149961849
+    second: A-large-orange-obese-Bigfoot-wearing-a-crown-and-a-256px-16 (1)_13
+  - first:
+      213: 5672748145629963952
+    second: A-large-orange-obese-Bigfoot-wearing-a-crown-and-a-256px-16 (1)_14
+  - first:
+      213: 7327687667240501833
+    second: A-large-orange-obese-Bigfoot-wearing-a-crown-and-a-256px-16 (1)_15
+  - first:
+      213: 6283575533649235401
+    second: A-large-orange-obese-Bigfoot-wearing-a-crown-and-a-256px-16 (1)_16
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: A-large-orange-obese-Bigfoot-wearing-a-crown-and-a-256px-16 (1)_0
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 1665
+        width: 263
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28d79c9c549563080800000000000000
+      internalID: -9208074231839359614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A-large-orange-obese-Bigfoot-wearing-a-crown-and-a-256px-16 (1)_1
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 1665
+        width: 234
+        height: 257
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ef0e9ea011d72540800000000000000
+      internalID: 4983181382288019428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A-large-orange-obese-Bigfoot-wearing-a-crown-and-a-256px-16 (1)_2
+      rect:
+        serializedVersion: 2
+        x: 1195
+        y: 1665
+        width: 221
+        height: 281
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b59cad7a9f85ce00800000000000000
+      internalID: 1064414780639188400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A-large-orange-obese-Bigfoot-wearing-a-crown-and-a-256px-16 (1)_3
+      rect:
+        serializedVersion: 2
+        x: 1721
+        y: 1665
+        width: 211
+        height: 286
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22fb56a60dc466f90800000000000000
+      internalID: -6960791716032561374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A-large-orange-obese-Bigfoot-wearing-a-crown-and-a-256px-16 (1)_4
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 1153
+        width: 274
+        height: 255
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f873554e053513ca0800000000000000
+      internalID: -6038954018433845361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A-large-orange-obese-Bigfoot-wearing-a-crown-and-a-256px-16 (1)_5
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 1153
+        width: 283
+        height: 255
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88c05fdba607bf4b0800000000000000
+      internalID: -5405603323972350840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A-large-orange-obese-Bigfoot-wearing-a-crown-and-a-256px-16 (1)_6
+      rect:
+        serializedVersion: 2
+        x: 1197
+        y: 1153
+        width: 224
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15efd1123687b12b0800000000000000
+      internalID: -5612760143434482095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A-large-orange-obese-Bigfoot-wearing-a-crown-and-a-256px-16 (1)_7
+      rect:
+        serializedVersion: 2
+        x: 1705
+        y: 1153
+        width: 227
+        height: 285
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa970e83c9c966e80800000000000000
+      internalID: -8185683077916231254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A-large-orange-obese-Bigfoot-wearing-a-crown-and-a-256px-16 (1)_8
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 880
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca425d3da3dbaa680800000000000000
+      internalID: -8742967666226682708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A-large-orange-obese-Bigfoot-wearing-a-crown-and-a-256px-16 (1)_9
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 641
+        width: 285
+        height: 255
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7659f1360228442d0800000000000000
+      internalID: -3295365951714781849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A-large-orange-obese-Bigfoot-wearing-a-crown-and-a-256px-16 (1)_10
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 641
+        width: 279
+        height: 255
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0aa9542a0dfa31820800000000000000
+      internalID: 2887845096685148832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A-large-orange-obese-Bigfoot-wearing-a-crown-and-a-256px-16 (1)_11
+      rect:
+        serializedVersion: 2
+        x: 1153
+        y: 641
+        width: 265
+        height: 255
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24ad7f8f29c361530800000000000000
+      internalID: 3825311535437699650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A-large-orange-obese-Bigfoot-wearing-a-crown-and-a-256px-16 (1)_12
+      rect:
+        serializedVersion: 2
+        x: 1666
+        y: 641
+        width: 262
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 038884156a11f2e90800000000000000
+      internalID: -7048395485785585616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A-large-orange-obese-Bigfoot-wearing-a-crown-and-a-256px-16 (1)_13
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 129
+        width: 268
+        height: 252
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78986cab2de2269d0800000000000000
+      internalID: -2782610137149961849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A-large-orange-obese-Bigfoot-wearing-a-crown-and-a-256px-16 (1)_14
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 129
+        width: 266
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b6a7880266a9be40800000000000000
+      internalID: 5672748145629963952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A-large-orange-obese-Bigfoot-wearing-a-crown-and-a-256px-16 (1)_15
+      rect:
+        serializedVersion: 2
+        x: 1147
+        y: 129
+        width: 266
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94281ee0c1d21b560800000000000000
+      internalID: 7327687667240501833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: A-large-orange-obese-Bigfoot-wearing-a-crown-and-a-256px-16 (1)_16
+      rect:
+        serializedVersion: 2
+        x: 1659
+        y: 129
+        width: 266
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9cd8f72f7aeb33750800000000000000
+      internalID: 6283575533649235401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      A-large-orange-obese-Bigfoot-wearing-a-crown-and-a-256px-16 (1)_0: -9208074231839359614
+      A-large-orange-obese-Bigfoot-wearing-a-crown-and-a-256px-16 (1)_1: 4983181382288019428
+      A-large-orange-obese-Bigfoot-wearing-a-crown-and-a-256px-16 (1)_10: 2887845096685148832
+      A-large-orange-obese-Bigfoot-wearing-a-crown-and-a-256px-16 (1)_11: 3825311535437699650
+      A-large-orange-obese-Bigfoot-wearing-a-crown-and-a-256px-16 (1)_12: -7048395485785585616
+      A-large-orange-obese-Bigfoot-wearing-a-crown-and-a-256px-16 (1)_13: -2782610137149961849
+      A-large-orange-obese-Bigfoot-wearing-a-crown-and-a-256px-16 (1)_14: 5672748145629963952
+      A-large-orange-obese-Bigfoot-wearing-a-crown-and-a-256px-16 (1)_15: 7327687667240501833
+      A-large-orange-obese-Bigfoot-wearing-a-crown-and-a-256px-16 (1)_16: 6283575533649235401
+      A-large-orange-obese-Bigfoot-wearing-a-crown-and-a-256px-16 (1)_2: 1064414780639188400
+      A-large-orange-obese-Bigfoot-wearing-a-crown-and-a-256px-16 (1)_3: -6960791716032561374
+      A-large-orange-obese-Bigfoot-wearing-a-crown-and-a-256px-16 (1)_4: -6038954018433845361
+      A-large-orange-obese-Bigfoot-wearing-a-crown-and-a-256px-16 (1)_5: -5405603323972350840
+      A-large-orange-obese-Bigfoot-wearing-a-crown-and-a-256px-16 (1)_6: -5612760143434482095
+      A-large-orange-obese-Bigfoot-wearing-a-crown-and-a-256px-16 (1)_7: -8185683077916231254
+      A-large-orange-obese-Bigfoot-wearing-a-crown-and-a-256px-16 (1)_8: -8742967666226682708
+      A-large-orange-obese-Bigfoot-wearing-a-crown-and-a-256px-16 (1)_9: -3295365951714781849
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

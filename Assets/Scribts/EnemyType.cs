@@ -4,5 +4,6 @@ public enum EnemyType
 {
     Melee,
     Shooting,
-    Ramming
+    Ramming,
+    Boss // Add this Boss type.
 }

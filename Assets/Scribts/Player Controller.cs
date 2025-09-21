@@ -75,6 +75,13 @@ public class PlayerController : MonoBehaviour
             // Move the player to the spawn point's position.
             transform.position = spawnPoint.transform.position;
         }
+
+        // Now, find the CameraFollow script and assign the player as its target.
+        CameraFollow cameraFollow = FindObjectOfType<CameraFollow>();
+        if (cameraFollow != null)
+        {
+            cameraFollow.SetTarget(this.transform);
+        }
     }
 
     void Start()

@@ -3,30 +3,30 @@ using UnityEngine;
 public class CameraFollow : MonoBehaviour
 {
     // The player's transform to follow.
-    public Transform player;
+    private Transform player;
     // The offset from the player's position.
     public Vector3 offset;
 
-    private void Start()
+    // The BackgroundFollow script to update.
+    public BackgroundFollow backgroundFollow;
+
+    // Public method to set the player target.
+    public void SetTarget(Transform newTarget)
     {
-        // Find the persistent player object in the scene.
-        PlayerController playerController = FindObjectOfType<PlayerController>();
-        if (playerController != null)
+        player = newTarget;
+
+        // Also set the player on the background follow script.
+        if (backgroundFollow != null)
         {
-            player = playerController.transform;
-        }
-        else
-        {
-            // Optional: Log an error if the player is not found.
-            Debug.LogError("Player object not found. Make sure you start the game from the main scene.");
+            backgroundFollow.player = newTarget;
         }
     }
 
     void LateUpdate()
     {
+        // If the player has been found, follow it.
         if (player != null)
         {
-            // Set the camera's position to the player's position plus the offset.
             transform.position = player.position + offset;
         }
     }
