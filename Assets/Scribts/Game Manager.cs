@@ -14,20 +14,9 @@ public class GameManager : MonoBehaviour
     public AmmoType currentAmmoType;
     public Dictionary<AmmoType, int> ammoCount = new Dictionary<AmmoType, int>();
 
-    // We use a private dictionary and a public serializable list.
-    private Dictionary<AmmoType, int> ammoDamage = new Dictionary<AmmoType, int>();
-
-    // --- New: A serializable class to hold the damage pairs ---
-    [System.Serializable]
-    public class AmmoDamagePair
-    {
-        public AmmoType ammoType;
-        public int damage;
-    }
-    // -----------------------------------------------------------
-
     [Header("Ammo Damage")]
     public AmmoDamagePair[] ammoDamageList;
+    public Dictionary<AmmoType, int> ammoDamage = new Dictionary<AmmoType, int>();
 
     [Header("Level Progression")]
     public string[] levelOrder;
@@ -37,6 +26,20 @@ public class GameManager : MonoBehaviour
     [Header("Enemy Stats")]
     public EnemyStats[] enemyStats;
 
+    // --- New: Boss and Win Condition variables ---
+    public string bossLevelName;
+    private bool bossIsDead = false;
+    // ---------------------------------------------
+
+    // Define EnemyStats as a nested class here.
+    [System.Serializable]
+    public class AmmoDamagePair
+    {
+        public AmmoType ammoType;
+        public int damage;
+    }
+
+    // Define EnemyStats as a nested class here.
     [System.Serializable]
     public class EnemyStats
     {
@@ -52,7 +55,7 @@ public class GameManager : MonoBehaviour
         if (Instance == null)
         {
             Instance = this;
-            DontDestroyOnLoad(gameObject);
+            DontDestroyOnLoad(gameObject); // Ensures the GameManager persists across scenes.
         }
         else
         {
@@ -74,7 +77,7 @@ public class GameManager : MonoBehaviour
         }
     }
 
-    // Public method to get the ammo damage.
+    // You will need a public method to get the ammo damage.
     public int GetAmmoDamage(AmmoType type)
     {
         if (ammoDamage.ContainsKey(type))
@@ -90,6 +93,7 @@ public class GameManager : MonoBehaviour
         lives--;
         if (lives <= 0)
         {
+            // Load Game Over screen if all lives are lost.
             SceneManager.LoadScene("GameOverMenu");
         }
         else
@@ -101,6 +105,15 @@ public class GameManager : MonoBehaviour
             }
         }
     }
+
+    // --- New: Handles the boss defeat win condition ---
+    public void BossDefeated()
+    {
+        bossIsDead = true;
+        Debug.Log("Boss defeated! Game won.");
+        SceneManager.LoadScene("GameWinMenu");
+    }
+    // ----------------------------------------------------
 
     // Sets the player's last save point.
     public void SetSavePoint(Vector3 position)
@@ -119,6 +132,7 @@ public class GameManager : MonoBehaviour
         }
         else
         {
+            // All levels complete, load win screen.
             SceneManager.LoadScene("GameWinMenu");
         }
     }

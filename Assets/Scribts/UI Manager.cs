@@ -9,11 +9,12 @@ public class UI_Manager : MonoBehaviour
 
     // === Public UI Elements ===
     public TMP_Text livesText;
-    public TMP_Text timerText;
-    public TMP_Text standardAmmoText;
-    public TMP_Text explodingAmmoText;
-    public TMP_Text buckshotAmmoText;
     public Image healthBarFill; // Public variable for the filled health bar image
+    public TMP_Text coinText;
+
+    // Ammo Counters
+    public TMP_Text rocketAmmoText;
+    public TMP_Text buckshotAmmoText;
 
     private void Awake()
     {
@@ -28,36 +29,32 @@ public class UI_Manager : MonoBehaviour
         }
     }
 
-    public void UpdateLives(int lives)
+    // A single method to update all UI elements at once.
+    public void UpdateUI()
     {
+        // Get a reference to the GameManager instance.
+        GameManager gm = GameManager.Instance;
+
+        // Update player lives.
         if (livesText != null)
         {
-            livesText.text = "Lives: " + lives;
+            livesText.text = "" + gm.lives;
         }
-    }
 
-    public void UpdateTimer(float time)
-    {
-        if (timerText != null)
+        // Update player coins.
+        if (coinText != null)
         {
-            timerText.text = "Time: " + time.ToString("F2");
+            coinText.text = "" + gm.score;
         }
-    }
 
-    public void UpdateAllAmmo(int standard, int exploding, int buckshot)
-    {
-        if (standardAmmoText != null) standardAmmoText.text = "Standard: " + standard;
-        if (explodingAmmoText != null) explodingAmmoText.text = "Exploding: " + exploding;
-        if (buckshotAmmoText != null) buckshotAmmoText.text = "Buckshot: " + buckshot;
-    }
-
-    // --- Updated method to update the health bar ---
-    public void UpdateHealthBar(int currentHealth, int maxHealth)
-    {
-        if (healthBarFill != null)
+        // Update ammo counts.
+        if (rocketAmmoText != null)
         {
-            // Set the fillAmount of the image based on the health percentage.
-            healthBarFill.fillAmount = (float)currentHealth / maxHealth;
+            rocketAmmoText.text = "" + gm.GetAmmoCount(AmmoType.Rocket);
+        }
+        if (buckshotAmmoText != null)
+        {
+            buckshotAmmoText.text = "" + gm.GetAmmoCount(AmmoType.Buckshot);
         }
     }
 }
