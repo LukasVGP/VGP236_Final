@@ -28,7 +28,6 @@ public class MovingPlatform : MonoBehaviour
         transform.position = Vector3.MoveTowards(transform.position, targetPosition, speed * Time.deltaTime);
 
         // Check if the platform has reached the target using a small threshold.
-        // This is more reliable than checking for exact equality due to floating-point imprecision.
         if (Vector3.Distance(transform.position, targetPosition) < 0.01f)
         {
             // Start the wait timer.
