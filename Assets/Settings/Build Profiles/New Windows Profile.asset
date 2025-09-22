@@ -21,6 +21,8 @@ MonoBehaviour:
   m_OverrideGlobalSceneList: 1
   m_Scenes:
   - m_enabled: 1
+    m_path: Assets/Scenes/MainMenu.unity
+  - m_enabled: 1
     m_path: Assets/Scenes/Level01.unity
   - m_enabled: 1
     m_path: Assets/Scenes/Level02.unity
@@ -28,6 +30,10 @@ MonoBehaviour:
     m_path: Assets/Scenes/Level03.unity
   - m_enabled: 1
     m_path: Assets/Scenes/Boss_Level.unity
+  - m_enabled: 1
+    m_path: Assets/Scenes/WinScreen.unity
+  - m_enabled: 1
+    m_path: Assets/Scenes/GameOverScreen.unity
   m_ScriptingDefines: []
   m_PlayerSettingsYaml:
     m_Settings: []

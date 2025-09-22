@@ -708,7 +708,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 101511234}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a79441f348de89743a2939f4d699eac1, type: 3}
   m_Name: 
@@ -1285,6 +1285,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Buckshot_pickup (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1162552823709780870, guid: 5a4ec6d6b964bf94b8c24741c192a915, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1341,6 +1345,10 @@ PrefabInstance:
     - target: {fileID: 8076954656384168947, guid: 213d0017ec8377d40ab9c0c3b0e20cfa, type: 3}
       propertyPath: m_Name
       value: Coin_pickup (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8076954656384168947, guid: 213d0017ec8377d40ab9c0c3b0e20cfa, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1560,6 +1568,10 @@ PrefabInstance:
     - target: {fileID: 1162552823709780870, guid: 5a4ec6d6b964bf94b8c24741c192a915, type: 3}
       propertyPath: m_Name
       value: Buckshot_pickup
+      objectReference: {fileID: 0}
+    - target: {fileID: 1162552823709780870, guid: 5a4ec6d6b964bf94b8c24741c192a915, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2348,6 +2360,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bigfoot_enemy_meele (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 676594547283612094, guid: 23decbd5db80a904087e8fcb2414f15c, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 9092006710830003159, guid: 23decbd5db80a904087e8fcb2414f15c, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 9117554328859776883, guid: 23decbd5db80a904087e8fcb2414f15c, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2566,6 +2590,10 @@ PrefabInstance:
     - target: {fileID: 8076954656384168947, guid: 213d0017ec8377d40ab9c0c3b0e20cfa, type: 3}
       propertyPath: m_Name
       value: Coin_pickup (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8076954656384168947, guid: 213d0017ec8377d40ab9c0c3b0e20cfa, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2908,6 +2936,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Door
       objectReference: {fileID: 0}
+    - target: {fileID: 6737642342886582823, guid: 9bb68475e2bbf4248986400d440c44d6, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 8547338737355648262, guid: 9bb68475e2bbf4248986400d440c44d6, type: 3}
       propertyPath: targetSceneName
       value: Level02
@@ -3008,6 +3040,10 @@ PrefabInstance:
     - target: {fileID: 8076954656384168947, guid: 213d0017ec8377d40ab9c0c3b0e20cfa, type: 3}
       propertyPath: m_Name
       value: Coin_pickup (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8076954656384168947, guid: 213d0017ec8377d40ab9c0c3b0e20cfa, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -4411,6 +4447,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Coin_pickup (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 8076954656384168947, guid: 213d0017ec8377d40ab9c0c3b0e20cfa, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4713,6 +4753,10 @@ PrefabInstance:
     - target: {fileID: 8076954656384168947, guid: 213d0017ec8377d40ab9c0c3b0e20cfa, type: 3}
       propertyPath: m_Name
       value: Coin_pickup (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8076954656384168947, guid: 213d0017ec8377d40ab9c0c3b0e20cfa, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -5470,6 +5514,10 @@ PrefabInstance:
     - target: {fileID: 8076954656384168947, guid: 213d0017ec8377d40ab9c0c3b0e20cfa, type: 3}
       propertyPath: m_Name
       value: Coin_pickup (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8076954656384168947, guid: 213d0017ec8377d40ab9c0c3b0e20cfa, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -6269,6 +6317,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bigfoot_enemy_meele
       objectReference: {fileID: 0}
+    - target: {fileID: 676594547283612094, guid: 23decbd5db80a904087e8fcb2414f15c, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 9092006710830003159, guid: 23decbd5db80a904087e8fcb2414f15c, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 9117554328859776883, guid: 23decbd5db80a904087e8fcb2414f15c, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6787,6 +6847,10 @@ PrefabInstance:
     - target: {fileID: 8076954656384168947, guid: 213d0017ec8377d40ab9c0c3b0e20cfa, type: 3}
       propertyPath: m_Name
       value: Coin_pickup (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8076954656384168947, guid: 213d0017ec8377d40ab9c0c3b0e20cfa, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -8533,6 +8597,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Coin_pickup (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 8076954656384168947, guid: 213d0017ec8377d40ab9c0c3b0e20cfa, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -8589,6 +8657,10 @@ PrefabInstance:
     - target: {fileID: 8076954656384168947, guid: 213d0017ec8377d40ab9c0c3b0e20cfa, type: 3}
       propertyPath: m_Name
       value: Coin_pickup (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8076954656384168947, guid: 213d0017ec8377d40ab9c0c3b0e20cfa, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -8808,6 +8880,10 @@ PrefabInstance:
     - target: {fileID: 8076954656384168947, guid: 213d0017ec8377d40ab9c0c3b0e20cfa, type: 3}
       propertyPath: m_Name
       value: Coin_pickup (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8076954656384168947, guid: 213d0017ec8377d40ab9c0c3b0e20cfa, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -10162,6 +10238,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Coin_pickup (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 8076954656384168947, guid: 213d0017ec8377d40ab9c0c3b0e20cfa, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -10218,6 +10298,10 @@ PrefabInstance:
     - target: {fileID: 8076954656384168947, guid: 213d0017ec8377d40ab9c0c3b0e20cfa, type: 3}
       propertyPath: m_Name
       value: Coin_pickup (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8076954656384168947, guid: 213d0017ec8377d40ab9c0c3b0e20cfa, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -10600,6 +10684,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bigfoot_enemy_meele (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 676594547283612094, guid: 23decbd5db80a904087e8fcb2414f15c, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 9092006710830003159, guid: 23decbd5db80a904087e8fcb2414f15c, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 9117554328859776883, guid: 23decbd5db80a904087e8fcb2414f15c, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -10656,6 +10752,10 @@ PrefabInstance:
     - target: {fileID: 8076954656384168947, guid: 213d0017ec8377d40ab9c0c3b0e20cfa, type: 3}
       propertyPath: m_Name
       value: Coin_pickup
+      objectReference: {fileID: 0}
+    - target: {fileID: 8076954656384168947, guid: 213d0017ec8377d40ab9c0c3b0e20cfa, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -10872,9 +10972,21 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4155766808481521634, guid: 6f1f152cba4faa04a99c12c74ad46711, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4256977896511013144, guid: 6f1f152cba4faa04a99c12c74ad46711, type: 3}
       propertyPath: m_Name
       value: Rotatin_platform
+      objectReference: {fileID: 0}
+    - target: {fileID: 4256977896511013144, guid: 6f1f152cba4faa04a99c12c74ad46711, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 8559287896346458762, guid: 6f1f152cba4faa04a99c12c74ad46711, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -13363,6 +13475,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Coin_pickup (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 8076954656384168947, guid: 213d0017ec8377d40ab9c0c3b0e20cfa, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -13419,6 +13535,10 @@ PrefabInstance:
     - target: {fileID: 8076954656384168947, guid: 213d0017ec8377d40ab9c0c3b0e20cfa, type: 3}
       propertyPath: m_Name
       value: Coin_pickup (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8076954656384168947, guid: 213d0017ec8377d40ab9c0c3b0e20cfa, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -13922,7 +14042,7 @@ GameObject:
   - component: {fileID: 1988680446}
   - component: {fileID: 1988680448}
   - component: {fileID: 1988680447}
-  m_Layer: 6
+  m_Layer: 8
   m_Name: BackgroundFollow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13951,7 +14071,7 @@ SpriteRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1988680445}
-  m_Enabled: 0
+  m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -13985,8 +14105,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 140709679
-  m_SortingLayer: 1
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
   m_SortingOrder: -1
   m_Sprite: {fileID: 21300000, guid: 2d90c333e68fff641828864d6667fda6, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -15116,6 +15236,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 974199124082385274, guid: 8fd1268eafbd0514d9ddb8693434d6a6, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2069909124237102656, guid: 8fd1268eafbd0514d9ddb8693434d6a6, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 2880247985463354437, guid: 8fd1268eafbd0514d9ddb8693434d6a6, type: 3}
       propertyPath: m_LocalPosition.x
       value: 2.54
@@ -15131,6 +15259,14 @@ PrefabInstance:
     - target: {fileID: 6551071262580093694, guid: 8fd1268eafbd0514d9ddb8693434d6a6, type: 3}
       propertyPath: m_Name
       value: MovinPlatform
+      objectReference: {fileID: 0}
+    - target: {fileID: 6551071262580093694, guid: 8fd1268eafbd0514d9ddb8693434d6a6, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 6876900576670560512, guid: 8fd1268eafbd0514d9ddb8693434d6a6, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 7530505214598256501, guid: 8fd1268eafbd0514d9ddb8693434d6a6, type: 3}
       propertyPath: m_LocalPosition.x
